@@ -68,51 +68,97 @@ if 'search_results' not in st.session_state:
     st.session_state.search_results = None
 if 'consultation' not in st.session_state:
     st.session_state.consultation = ""
+if 'optimized_en_query' not in st.session_state:
+    st.session_state.optimized_en_query = ""
+if 'optimized_vn_query' not in st.session_state:
+    st.session_state.optimized_vn_query = ""
+if 'strategy' not in st.session_state:
+    st.session_state.strategy = ""
 
 # Search Input
 query = st.text_area("Nội dung cần tìm kiếm", height=100, placeholder="Ví dụ: Điều trị tăng huyết áp ở người cao tuổi...")
 
-col1, col2 = st.columns([1, 1])
-
-with col1:
-    if st.button("🤖 Tư vấn Chiến lược (AI)", use_container_width=True):
-        if not query:
-            st.warning("Vui lòng nhập nội dung cần tìm kiếm.")
-        elif not gemini_key:
-            st.error("Vui lòng nhập Gemini API Key để sử dụng tính năng này.")
-        else:
-            with st.spinner("AI đang phân tích..."):
-                consultation = manager.consult(query)
-                st.session_state.consultation = consultation
-
-with col2:
-    if st.button("🔍 Tìm kiếm Ngay", type="primary", use_container_width=True):
-        if not query:
-            st.warning("Vui lòng nhập nội dung cần tìm kiếm.")
-        else:
-            sources = []
-            if use_pubmed: sources.append("PubMed")
-            if use_scopus: sources.append("Scopus")
-            if use_semantic: sources.append("Semantic Scholar")
+# AI Consultation Button
+if st.button("🤖 Tư vấn Chiến lược Tìm kiếm (AI)", use_container_width=True):
+    if not query:
+        st.warning("Vui lòng nhập nội dung cần tìm kiếm.")
+    elif not gemini_key:
+        st.error("Vui lòng nhập Gemini API Key trong file .env để sử dụng tính năng này.")
+    else:
+        with st.spinner("AI đang phân tích và tối ưu hóa..."):
+            # Get consultation
+            consultation = manager.consult(query)
+            st.session_state.consultation = consultation
             
-            if not sources:
-                st.error("Vui lòng chọn ít nhất một nguồn dữ liệu.")
-            else:
-                with st.spinner("Đang tìm kiếm..."):
-                    results = manager.process_search(
-                        query, 
-                        sources, 
-                        max_results, 
-                        year_range[0], 
-                        year_range[1],
-                        use_ai_optimization=bool(gemini_key)
-                    )
-                    st.session_state.search_results = results
+            # Get optimized queries
+            optimization = manager.gemini.optimize_query(query)
+            st.session_state.optimized_en_query = optimization.get("english_query", query)
+            st.session_state.optimized_vn_query = optimization.get("vietnamese_query", query)
+            st.session_state.strategy = optimization.get("strategy", "")
 
-# Display Consultation
+# Display Consultation and Optimized Queries
 if st.session_state.consultation:
     with st.expander("💡 Tư vấn từ AI", expanded=True):
         st.markdown(st.session_state.consultation)
+        
+        if st.session_state.optimized_en_query or st.session_state.optimized_vn_query:
+            st.markdown("---")
+            st.markdown("### 🎯 Query đã tối ưu hóa")
+            
+            if st.session_state.optimized_en_query:
+                st.info(f"**🇬🇧 Tiếng Anh (PubMed/Scopus):**\n\n`{st.session_state.optimized_en_query}`")
+            
+            if st.session_state.optimized_vn_query:
+                st.success(f"**🇻🇳 Tiếng Việt (Semantic Scholar):**\n\n`{st.session_state.optimized_vn_query}`")
+            
+            if st.session_state.strategy:
+                st.markdown(f"**📋 Chiến lược:** {st.session_state.strategy}")
+
+# Search Buttons
+st.markdown("---")
+col1, col2 = st.columns(2)
+
+with col1:
+    use_ai_query = st.button("🔍 Tìm kiếm với Query AI", type="primary", use_container_width=True, 
+                             disabled=not st.session_state.optimized_en_query)
+    
+with col2:
+    use_original_query = st.button("🔍 Tìm kiếm với Query gốc", use_container_width=True)
+
+# Execute Search
+if use_ai_query or use_original_query:
+    if not query:
+        st.warning("Vui lòng nhập nội dung cần tìm kiếm.")
+    else:
+        sources = []
+        if use_pubmed: sources.append("PubMed")
+        if use_scopus: sources.append("Scopus")
+        if use_semantic: sources.append("Semantic Scholar")
+        
+        if not sources:
+            st.error("Vui lòng chọn ít nhất một nguồn dữ liệu.")
+        else:
+            # Determine which queries to use
+            if use_ai_query and st.session_state.optimized_en_query:
+                english_query = st.session_state.optimized_en_query
+                vietnamese_query = st.session_state.optimized_vn_query
+                search_mode = "AI-optimized"
+            else:
+                english_query = query
+                vietnamese_query = query
+                search_mode = "Original"
+            
+            with st.spinner("Đang tìm kiếm..."):
+                results = manager.process_search_with_custom_queries(
+                    english_query=english_query,
+                    vietnamese_query=vietnamese_query,
+                    sources=sources,
+                    max_results=max_results,
+                    year_start=year_range[0],
+                    year_end=year_range[1],
+                    search_mode=search_mode
+                )
+                st.session_state.search_results = results
 
 # Display Results
 if st.session_state.search_results:
@@ -121,15 +167,22 @@ if st.session_state.search_results:
     st.markdown("---")
     st.header("📚 Kết quả Tìm kiếm")
     
-    # AI Optimization Info
-    if results.get("optimization"):
-        opt = results["optimization"]
-        st.info(f"""
-        **AI đã tối ưu hóa truy vấn:**
-        - 🇬🇧 **Tiếng Anh (PubMed/Scopus):** `{opt.get('english_query')}`
-        - 🇻🇳 **Tiếng Việt (Semantic Scholar):** `{opt.get('vietnamese_query')}`
-        - 🎯 **Chiến lược:** {opt.get('strategy')}
-        """)
+    # Display search mode info
+    if results.get("search_mode"):
+        mode = results["search_mode"]
+        if mode == "AI-optimized":
+            st.success("✨ **Đang hiển thị kết quả với Query AI đã tối ưu hóa**")
+        else:
+            st.info("📝 **Đang hiển thị kết quả với Query gốc của bạn**")
+    
+    # Display queries used
+    if results.get("queries_used"):
+        queries = results["queries_used"]
+        with st.expander("🔎 Query đã sử dụng", expanded=False):
+            if queries.get("english"):
+                st.markdown(f"**🇬🇧 Tiếng Anh (PubMed/Scopus):** `{queries['english']}`")
+            if queries.get("vietnamese"):
+                st.markdown(f"**🇻🇳 Tiếng Việt (Semantic Scholar):** `{queries['vietnamese']}`")
     
     # Errors
     if results.get("errors"):

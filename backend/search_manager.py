@@ -14,6 +14,56 @@ class SearchManager:
         self.semantic = SemanticScholarAPI(semantic_key)
         self.gemini = GeminiService(gemini_key)
 
+    def process_search_with_custom_queries(self,
+                                           english_query: str,
+                                           vietnamese_query: str,
+                                           sources: List[str],
+                                           max_results: int = 5,
+                                           year_start: int = None,
+                                           year_end: int = None,
+                                           search_mode: str = "Original") -> Dict[str, Any]:
+        """
+        Thực hiện tìm kiếm với query tùy chỉnh cho từng nguồn
+        """
+        results = {
+            "search_mode": search_mode,
+            "queries_used": {
+                "english": english_query,
+                "vietnamese": vietnamese_query
+            },
+            "articles": [],
+            "errors": []
+        }
+
+        all_articles = []
+
+        # PubMed (English only)
+        if "PubMed" in sources:
+            try:
+                pubmed_results = self.pubmed.search_and_fetch(english_query, max_results, year_start, year_end)
+                all_articles.extend(pubmed_results)
+            except Exception as e:
+                results["errors"].append(f"PubMed Error: {e}")
+
+        # Scopus (English only)
+        if "Scopus" in sources:
+            try:
+                scopus_results = self.scopus.search_and_fetch(english_query, max_results, year_start, year_end)
+                all_articles.extend(scopus_results)
+            except Exception as e:
+                results["errors"].append(f"Scopus Error: {e}")
+
+        # Semantic Scholar (Vietnamese/English)
+        if "Semantic Scholar" in sources:
+            try:
+                semantic_results = self.semantic.search_and_fetch(vietnamese_query, max_results, year_start, year_end)
+                all_articles.extend(semantic_results)
+            except Exception as e:
+                results["errors"].append(f"Semantic Scholar Error: {e}")
+
+        results["articles"] = all_articles
+        return results
+
     def process_search(self, 
                       user_query: str, 
                       sources: List[str], 
@@ -22,7 +72,7 @@ class SearchManager:
                       year_end: int = None,
                       use_ai_optimization: bool = True) -> Dict[str, Any]:
         """
-        Thực hiện quy trình tìm kiếm đầy đủ
+        Thực hiện quy trình tìm kiếm đầy đủ (legacy method - kept for backward compatibility)
         """
         results = {
             "optimization": None,
