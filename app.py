@@ -34,7 +34,7 @@ with st.sidebar:
         value=(current_year-5, current_year)
     )
     
-    max_results = st.number_input("Số lượng kết quả tối đa", min_value=1, max_value=50, value=5)
+    max_results = st.number_input("Số lượng kết quả tối đa", min_value=1, max_value=100, value=10)
     
     st.markdown("---")
     st.markdown("### Nguồn dữ liệu")
