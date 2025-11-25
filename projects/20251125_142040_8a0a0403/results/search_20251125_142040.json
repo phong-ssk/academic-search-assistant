@@ -1,0 +1,972 @@
+{
+  "search_id": "search_20251125_142040",
+  "timestamp": "2025-11-25T14:20:40.136401",
+  "user_query": "tôi muốn tìm thông tin các bài báo liênq uan thực hành dựa trên bằng chứng và các rào cản trong đối tượng nhân viên y tế",
+  "quality_score": 0.85,
+  "refinement_count": 0,
+  "metadata": {
+    "total_found": 50,
+    "unique_count": 50,
+    "quality_score": 0.85,
+    "refinement_count": 0,
+    "sources_used": [
+      "PubMed",
+      "Semantic Scholar"
+    ]
+  },
+  "total_found": 50,
+  "saved_count": 50,
+  "articles": [
+    {
+      "id": "41225471",
+      "title": "An analysis of facilitating and hindering factors in effective evidence-based medical education: a study within the context of medical education in Iran.",
+      "authors": [
+        "Ali Reza Yusefi",
+        "Zahra Dehghani",
+        "Seyedeh Zahra Nahardani",
+        "Ghobad Ramezani",
+        "Mohammad Hasan Keshavarzi"
+      ],
+      "journal": "BMC medical education",
+      "year": "2025",
+      "doi": "10.1186/s12909-025-08187-3",
+      "pmc_id": "PMC12613663",
+      "abstract": "Evidence-Based Medical Education (EBME) is increasingly recognized as a key strategy for enhancing the quality and relevance of medical training. Despite its global endorsement, its implementation in many low- and middle-income countries (LMICs), including Iran, faces significant challenges. Highlighting the Iranian context is particularly important, as Iran represents a unique case of a rapidly expanding medical education system in a middle-income setting with distinct cultural and institutional dynamics. This study aimed to explore the factors that support or hinder the effective implementation of EBME in Iranian medical universities.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41225471/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "41219750",
+      "title": "Evidence-Based Educational Initiative for Nurses in an Epilepsy Monitoring Unit.",
+      "authors": [
+        "Shivani Bhatnagar",
+        "Joy Shoemaker"
+      ],
+      "journal": "Worldviews on evidence-based nursing",
+      "year": "2025",
+      "doi": "10.1111/wvn.70080",
+      "pmc_id": "N/A",
+      "abstract": "The National Association of Epilepsy Centers (NAEC) published guidelines on caring for patients admitted to an in-patient epilepsy monitoring unit (EMU) in 1997. These guidelines serve as the foundation for nursing practices in this specialized field. However, there is a significant variation in nursing knowledge and confidence in caring for this patient population. This highlights the need for a standardized epilepsy education program for bedside nurses in these units, which is currently lacking.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41219750/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "41202291",
+      "title": "Nurses' Perspectives on Evidence Dissemination Barriers and Large Language Model-Based Support: Qualitative Study Using Focus Groups and Nominal Group Technique.",
+      "authors": [
+        "Junyi Ruan",
+        "Yimin Tang",
+        "Zhongyu Wei",
+        "Weijie Xing",
+        "Yan Hu"
+      ],
+      "journal": "Journal of medical Internet research",
+      "year": "2025",
+      "doi": "10.2196/80289",
+      "pmc_id": "PMC12639338",
+      "abstract": "Current evidence dissemination methods fall short of meeting clinical nurses' needs, hindering the implementation of evidence-based nursing practice. Large language models (LLMs), with their advanced natural language processing capabilities, offer potential as innovative tools to facilitate evidence dissemination. However, general-purpose LLMs typically lack domain-specific knowledge, are insufficient to support effective evidence dissemination in clinical contexts. It is essential to develop artificial intelligence tools tailored to nurses' needs and preferences to enhance evidence dissemination.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41202291/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "41041761",
+      "title": "Pathways to Utilisation: Structural Equation Models Comparing Intranet Guidelines and a CDSS.",
+      "authors": [
+        "Florian Kücking",
+        "Hanna Burkhalter",
+        "Ann-Kristin Rotegård",
+        "Ursula Hübner"
+      ],
+      "journal": "Studies in health technology and informatics",
+      "year": "2025",
+      "doi": "10.3233/SHTI251512",
+      "pmc_id": "N/A",
+      "abstract": "The implementation of evidence-based practice continues to pose significant challenges across healthcare settings. This study investigated how factors influencing the use of an intranet folder system (IFS) providing evidence-based guidelines change during the transition to a Clinical Decision Support System (CDSS). A two-wave survey was conducted among nursing staff at a Swiss hospital, assessing system utilisation, Evidence-Based Nursing (EBN) related factors, selected variables from the Unified Theory of Acceptance and Use of Technology (UTAUT), and demographic information. Structural equation modelling was applied to identify key determinants of utilisation. Facilitating Conditions and Social Influence significantly influenced utilisation in both systems. EBN factors, specifically Trust and Knowledge, impacted Effort Expectancy only in the CDSS model. These results suggest that while organisational and social factors consistently promote system use, the successful adoption of a CDSS additionally requires the development of new trust in the technology and expanded knowledge of its functions to reduce perceived effort and enhance utilisation. The findings highlight the need for structural support, social endorsement, and targeted training to facilitate the effective implementation of CDSS in clinical practice.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41041761/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40998531",
+      "title": "Barriers and facilitators perceived by professionals while implementing Soothing and Sleeping in Dutch Healthcare: a mixed-methods study.",
+      "authors": [
+        "Jamie Lee van Someren",
+        "Eline Louise Möller",
+        "Hesther Rozemarijn Rodenburg",
+        "Annemieke E J Peters",
+        "Mariëtte H H Hoogsteder",
+        "Margreet W Harskamp-van Ginkel"
+      ],
+      "journal": "BMJ paediatrics open",
+      "year": "2025",
+      "doi": "10.1136/bmjpo-2025-003478",
+      "pmc_id": "PMC12481258",
+      "abstract": "Many parents struggle with infant crying and sleep, yet some needs remain unmet by current professional support. Soothing and Sleeping, an evidence-based practice (EBP) based on the Happiest Baby method, offers preventive support and parental education for these issues. The Dutch Youth Health Care (YHC) system, monitoring 95% of children, is well-positioned to implement it.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40998531/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40982185",
+      "title": "Acceptance and Utilization of Real-World Evidence among Cancer Care Physicians in the USA: A National Survey.",
+      "authors": [
+        "Thomas M Porter",
+        "Kathleen M Andersen",
+        "Wencesley Paez",
+        "Patrick Corr",
+        "Sabrina Figueiredo"
+      ],
+      "journal": "Pharmaceutical medicine",
+      "year": "2025",
+      "doi": "10.1007/s40290-025-00586-7",
+      "pmc_id": "2651075",
+      "abstract": "Regulatory agencies and policy makers increasingly recognize real-world evidence (RWE) as a valuable complement to randomized controlled trials (RCTs) in oncology, yet data on how US physicians who treat cancer use and perceive RWE remain limited. The study aimed to assess attitudes toward RWE among US physicians who treat cancer, including their confidence in interpreting it and reliance across clinical decision contexts.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40982185/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40938838",
+      "title": "Effect of Training Program on Evidence-Based Practice Competencies in Hospital Nurses in Taiwan: A Quasi-Experimental Study.",
+      "authors": [
+        "Mei-Ling Yeh",
+        "Bieng-Yi Chang",
+        "Hung-Da Dai",
+        "Min-Huey Chung"
+      ],
+      "journal": "The journal of nursing research : JNR",
+      "year": "2025",
+      "doi": "10.1097/jnr.0000000000000701",
+      "pmc_id": "PMC12466165",
+      "abstract": "Evidence-based practice has been shown to improve the quality and efficiency of health care. However, more than 58% of nurses in Taiwan have no evidence-based-practice-related training program experience.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40938838/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40880427",
+      "title": "Attitudes and opinions of medical practitioners, librarians, and LIS academics towards health science library services to support evidence-based medical practice in South Africa.",
+      "authors": [
+        "Saroj Bala",
+        "Peter G Underwood",
+        "Smangele P Moyane"
+      ],
+      "journal": "PloS one",
+      "year": "2025",
+      "doi": "10.1371/journal.pone.0331507",
+      "pmc_id": "PMC12396650",
+      "abstract": "This study explores the attitudes and opinions of health science librarians, university academic staff, and medical practitioners towards health science library services to support Evidence-Based Medical Practice (EBMP) in eThekwini, South Africa. It aims to develop an EBMP model for health science library services, focusing on the importance of timely, evidence-based information for quality healthcare. The research also focuses on improving the readiness and qualifications of librarians to support medical practitioners in EBMP implementation.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40880427/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40795070",
+      "title": "Assessing context and readiness of emergency medicine physicians to promote evidence-based imaging referral guidelines: a mixed-methods study.",
+      "authors": [
+        "Yi Xiang Tay",
+        "Jeremy C P Wee",
+        "Marcus E H Ong",
+        "Shane J Foley",
+        "Robert Chun Chen",
+        "Lai Peng Chan",
+        "Ronan Killeen",
+        "Eu Jin Tan",
+        "May San Mak",
+        "Glenn Y H Ng",
+        "Yang Yann Foo",
+        "Jonathan P McNulty"
+      ],
+      "journal": "Translational behavioral medicine",
+      "year": "2025",
+      "doi": "10.1093/tbm/ibaf035",
+      "pmc_id": "PMC12342136",
+      "abstract": "Assessment of context and readiness to change are key components in the implementation of imaging referral guidelines.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40795070/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40656907",
+      "title": "Understanding, Using, and Facilitating Evidence-Based Practice: A Scoping Review of Influencing Factors Among Nurse Managers in Acute Care.",
+      "authors": [
+        "Silas Yenbon Sebire",
+        "Jeremy Brown",
+        "Emmie Malewezi",
+        "Lyvonne N Tume"
+      ],
+      "journal": "Journal of nursing management",
+      "year": "2025",
+      "doi": "10.1155/jonm/2155376",
+      "pmc_id": "PMC12253997",
+      "abstract": "Background: Evidence-based practice (EBP) is essential for quality healthcare. Nurse managers (NMs) play a key role in promoting EBP adoption among nurses, given their position as clinical leaders for nurses seeking to change practice. Therefore, it is crucial to understand the factors influencing their understanding and facilitation of EBP in care delivery. Aim: To synthesize literature on the enablers and barriers faced by NMs in understanding, using, and facilitating EBP within acute care settings. Methods: A scoping review which followed the Joanna Briggs Institute framework for scoping reviews and reported in accordance with PRISMA extension for scoping reviews. Multiple electronic databases, including MEDLINE, CINAHL, Cochrane Library, Scopus, JBI EBP database, Embase, Emcare, HMIC, and PsycINFO regardless of publication to be comprehensive. Two independent reviewers screened studies and extracted data. Methodological quality of included studies was appraised and considered high. Results: The search yielded 1338 results of which 24 studies met inclusion criteria and included in the review. Key findings are the central role of strong personal factors-such as positive attitudes, beliefs, and good EBP competencies-in driving understanding and use of EBP. Supportive leadership behaviors can create a positive organizational environment for EBP, while access to resources and infrastructure are essential for EBP implementation. Conversely, barriers such as poor EBP knowledge, skills and competency, heavy workloads, insufficient resources, and lack of effective leadership support impede EBP implementation within acute care settings. Conclusions: NMs play a crucial role in EBP implementation within their organizations, emphasizing the interconnectedness of personal and organizational factors. Implications for Nursing management: Developing key personal factors and specific EBP-supportive behaviors of NMs can create a powerful catalyst for overcoming barriers, leading to improved patient care outcomes.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40656907/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40590842",
+      "title": "Attitudes to Evidence-Based Interventions and Individual Readiness to Change in Maternity and Child Health Care: A Cross-Sectional Study Among Midwives and Public Health Nurses.",
+      "authors": [
+        "Ellen Solstad Olavesen",
+        "Sølvi Helseth",
+        "Tore Wentzel-Larsen",
+        "Silje Marie Haga",
+        "Thea Grossmann Sundrehagen",
+        "Lisbeth Valla",
+        "Filip Drozd"
+      ],
+      "journal": "Worldviews on evidence-based nursing",
+      "year": "2025",
+      "doi": "10.1111/wvn.70046",
+      "pmc_id": "N/A",
+      "abstract": "Integrating evidence-based interventions in services by midwives and public health nurses (PHNs) has the potential to improve public health. Attitudes and individual readiness to change can influence the implementation of evidence-based interventions, but there is limited research in community nursing and maternity and child health care services (MCHCs).",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40590842/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40556119",
+      "title": "Exploring the Impact of Leadership, Organizational Support, and Knowledge Management in Evidence-Based Practice Implementation Among Nurse Managers Through SEM.",
+      "authors": [
+        "Ebtsam Aly Abou Hashish",
+        "Sabrein Mahmoud Ali Khalifa Khattab",
+        "Heba Farouk Mohammad",
+        "Nancy Sabry Elliethey"
+      ],
+      "journal": "Worldviews on evidence-based nursing",
+      "year": "2025",
+      "doi": "10.1111/wvn.70051",
+      "pmc_id": "N/A",
+      "abstract": "Nurse managers are pivotal to the successful implementation of evidence-based practice (EBP). However, enhancing their skills and competencies remains a critical priority. Assessing the influence of nurse managers' competencies in managing and practicing EBP is essential, as it directly impacts outcomes across all levels of healthcare institutions.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40556119/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40509851",
+      "title": "Attitudes of Generation Y Nurses Toward Evidence-Based Nursing Practice: A Mixed-Methods Study.",
+      "authors": [
+        "Juste Kiviliene",
+        "Aurelija Blazeviciene"
+      ],
+      "journal": "Nursing open",
+      "year": "2025",
+      "doi": "10.1002/nop2.70257",
+      "pmc_id": "PMC12163249",
+      "abstract": "To identify the attitudes of Generation Y nurses toward evidence-based nursing practice in university and municipality level hospitals in Lithuania.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40509851/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40479822",
+      "title": "Surgeon perceptions and utilization of evidence-based medicine.",
+      "authors": [
+        "Mandeep S Tamber",
+        "Hailey Jensen",
+        "Ron Reeder",
+        "Jason Clawson",
+        "Nichol Nunn",
+        "John R W Kestle"
+      ],
+      "journal": "Journal of neurosurgery. Pediatrics",
+      "year": "2025",
+      "doi": "10.3171/2025.3.PEDS2514",
+      "pmc_id": "N/A",
+      "abstract": "Knowledge translation approaches for augmenting the use of evidence in medical practice require identifying potential barriers to implementation. Important but poorly understood determinants of the uptake of knowledge translation tools are the intrinsic characteristics of health professionals themselves. In this study, the authors explored how surgeons' perceptions of evidence-based medicine (EBM) and their behavior in response to new evidence affect their awareness and use of evidence-based summaries designed for application at the point of care.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40479822/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40472352",
+      "title": "Incorporating patients in the development of clinical practice guidelines.",
+      "authors": [
+        "Germán Loyola",
+        "Daniela Morales",
+        "Fanny Leyton",
+        "Pablo Alonso-Coello",
+        "Javier Bracchiglione"
+      ],
+      "journal": "Medwave",
+      "year": "2025",
+      "doi": "10.5867/medwave.2025.05.3063",
+      "pmc_id": "N/A",
+      "abstract": "Clinical practice guidelines are a set of recommendations developed systematically and based on the best available evidence. Their purpose is to enable healthcare providers and patients to make the best decisions regarding healthcare interventions associated with a particular clinical condition, considering each patient's specific circumstances. One element that has gained importance recently is considering patient preferences when developing healthcare recommendations to increase adherence to therapeutic measures and patient satisfaction. One way to incorporate these preferences is by including patients or their representatives in developing these tools. Patient participation can take place through their inclusion as members of the development panel and/or at different stages of the guideline development process. This can be achieved through various methods like discussion groups, semi-structured interviews, or surveys. However, challenges still need to be addressed to optimally incorporate patients' perspectives, which, among other reasons, are related to socioeconomic barriers, educational gaps, and the persistence of a paternalistic view of healthcare. This article has been developed in the context of a methodological series on clinical epidemiology, biostatistics, and research methodology carried out by the departments of Research Methodology and Evidence-Based Medicine at the School of Medicine of the University of Valparaíso, Chile.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40472352/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40452004",
+      "title": "Assessing readiness for evidence-based practice among healthcare professionals in Egypt.",
+      "authors": [
+        "Ghaidaa A Ahmed",
+        "Maggie M Abbassi",
+        "Samar F Farid",
+        "Nirmeen A Sabry"
+      ],
+      "journal": "BMC medical education",
+      "year": "2025",
+      "doi": "10.1186/s12909-025-07401-6",
+      "pmc_id": "PMC12128557",
+      "abstract": "Evidence-Based Practice (EBP) implements individual clinical experience along with the highest accessible clinical evidence. Nowadays, EBP is an essential part of decision-making in many healthcare fields including nursing, pharmacy, and physiotherapy to improve patient care and healthcare outcomes. Literature showed many barriers and considerable gaps between the available scientific evidence and the services provided by healthcare professionals (HCPs). This study aimed to assess the awareness of, attitudes toward, barriers to, and implementation of evidence-based practice among Egyptian healthcare professionals.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40452004/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40448083",
+      "title": "Implementing evidence into practice for the management of frozen shoulder: engaging with key stakeholders and evaluating barriers and facilitators using the Consolidated Framework for Implementation Research.",
+      "authors": [
+        "Natalie Louise Clark",
+        "Melissa Johnson",
+        "Lucksy Kottam",
+        "Stephen Brealey",
+        "Joy Adamson",
+        "Amar Rangan"
+      ],
+      "journal": "Health research policy and systems",
+      "year": "2025",
+      "doi": "10.1186/s12961-025-01335-7",
+      "pmc_id": "PMC12125935",
+      "abstract": "Frozen shoulder (FS) is a painful, stiff and disabling shoulder condition affecting adults of working age. A multi-centre randomised controlled trial (UK FROST) comparing three of the most common treatments provided by the National Health Service (NHS) in secondary care found all three treatments improved patient outcomes, with none being overall clinically superior. Each treatment had its advantages and disadvantages. This paper describes the use of the Consolidated Framework of Implementation Research (CFIR) as an exemplar of knowledge translation for the latest evidence from UK FROST in the management of FS. It describes using stakeholder feedback in the development of a FS pathway, considering the barriers and facilitators to implementation in relation to the UK FROST findings and current clinical practice.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40448083/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40424475",
+      "title": "An evidence-informed approach to discharge planning from specialist brain injury rehabilitation: a mixed method study using the PRECEDE-PROCEED model.",
+      "authors": [
+        "Liana S Cahill",
+        "Lauren J Christie",
+        "Danielle Sansonetti",
+        "Suzanne Currie",
+        "Mithu Palit",
+        "Nita Robin Jacob",
+        "Daniella Leifer",
+        "Natasha A Lannin"
+      ],
+      "journal": "Brain impairment : a multidisciplinary journal of the Australian Society for the Study of Brain Impairment",
+      "year": "2025",
+      "doi": "10.1071/IB24029",
+      "pmc_id": "N/A",
+      "abstract": "Background The transition from inpatient rehabilitation to community living is a challenging time for adults with acquired brain injury (ABI). This study aimed to investigate barriers to evidence-based discharge practices in inpatient ABI rehabilitation and to collaboratively design implementation solutions with rehabilitation healthcare professionals. Method We used a theoretical problem-analysis approach guided by the Predisposing, Reinforcing, and Enabling Constructs in Educational Diagnosis and Evaluation (PRECEDE) - Policy, Regulatory, and Organizational Constructs in Educational and Environmental Development (PROCEED) model. Participants were healthcare professionals working in inpatient ABI rehabilitation and external stakeholders working with patients with ABI post-discharge. Triangulation of data and methods (audits, surveys, focus groups) were employed to provide a comprehensive analysis of barriers and their causes. Results A total of 47 healthcare professionals (70% female) and 14 external stakeholders (71% female) participated. Factors negatively impacting on discharge were classified as pre-disposing (inconsistent planning, limited staff knowledge of discharge goals), enabling (accommodation and funding) and reinforcing (communication, family, nursing involvement). Suggested facilitators for coordinated discharge included clear and consistent communication, support for patient-family emotional adjustment to disability and discharge plans, and improved early access to funding schemes. Conclusion Theory-informed and collaborative methods led to recommendations including a discharge pathway and checklist, meetings with clear objectives for discharge discussions, and an increase in family and nursing staff involvement to improve discharge processes.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40424475/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40408366",
+      "title": "Adoption of evidence-based medicine: A comparative study of hospital and community pharmacists in Saudi Arabia.",
+      "authors": [
+        "Fahad Alzahrani",
+        "Nawaf Almutairi",
+        "Abdullah Aloufi",
+        "Abdulmalik Kattan",
+        "Abdulaziz Hakeem",
+        "Mohammed Alharbi",
+        "Naif Alarawi",
+        "Haifa A Fadil",
+        "Ehsan Habeeb"
+      ],
+      "journal": "PloS one",
+      "year": "2025",
+      "doi": "10.1371/journal.pone.0324620",
+      "pmc_id": "PMC12101653",
+      "abstract": "Evidence-based medicine (EBM) combines clinical expertise, patient values, and the best available evidence to guide healthcare decision-making. Despite its importance in pharmacy practice, EBM adoption in Saudi Arabian pharmacies remains under-researched. This study aimed to assess the knowledge, attitudes, and practices regarding EBM among hospital and community pharmacists in the Madinah Region, Saudi Arabia.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40408366/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40375060",
+      "title": "Limited Evidence to Fully Determine the Implementation of Evidence-Based Practice by Healthcare Providers in Africa: A Systematic Review and Meta-Analysis.",
+      "authors": [
+        "Feleke H Astawesegn",
+        "Kedir Y Ahmed",
+        "Subash Thapa",
+        "Shakeel Mahmood",
+        "Anayochukwu Anyasodor",
+        "M Mamun Huda",
+        "Setognal B Aychilihum",
+        "Utpal K Modal",
+        "Allen G Ross"
+      ],
+      "journal": "Journal of evidence-based medicine",
+      "year": "2025",
+      "doi": "10.1111/jebm.70032",
+      "pmc_id": "PMC12081785",
+      "abstract": "Implementing evidence-based practice (EBP) is a complex process requiring healthcare providers to integrate evidence-based medicine (EBM) into clinical practice, ultimately improving clinical outcomes. This systematic review examined the sources of information for EBP, analyzed the extent of EBP implementation by healthcare providers, and explored the factors influencing EBP in Africa.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40375060/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40343961",
+      "title": "Contributing to evidence-based veterinary medicine: A qualitative study of veterinary professionals' views and experiences of client-owned companion animal research.",
+      "authors": [
+        "Tamzin Furtado",
+        "Elizabeth Perkins",
+        "Debra C Archer"
+      ],
+      "journal": "PloS one",
+      "year": "2025",
+      "doi": "10.1371/journal.pone.0322902",
+      "pmc_id": "PMC12063805",
+      "abstract": "Research on the outcomes of veterinary treatments in dogs, cats and horses has important benefits for these animals and their owners. However, this information is not always available, and the evidence base is often lower-quality than in human medicine. To identify ways to improve the generation of evidence, we investigated the views of veterinary professionals about research involving companion animal patients and their owners. This qualitative study used semi-structured interviews with veterinary surgeons and registered veterinary nurses working in UK companion animal clinical practice. Interviews were conducted with 20 veterinary professionals from different clinical settings including both those with and without previous experience of research involving animals. Analyses revealed that veterinary professionals valued evidence-based information to help them make informed decisions about treatment with owners. However, there was often not enough available evidence. Veterinary professionals were willing to help produce this research evidence. However, lack of time and resources were key challenges and in addition, they did not always feel they had the necessary research skills, experience and support. Some participants also found it difficult to discuss participation in research with owners of their veterinary patients. They also had concerns about the amount and type of extra information they would need to give to owners. Veterinary professionals also faced a dilemma as their key role is to protect the welfare of animals that they treat, yet felt that there was the potential for some animals assigned to receive a specific treatment as part of a research study to be disadvantaged. Companion animal research has important benefits for veterinary patients, their owners and for veterinary professionals. Based on our findings, more funding, improved research training, resources, support networks and changes to current regulations are needed. Improved evidence would assist veterinary professionals and owners when making informed decisions around veterinary care.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40343961/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40340940",
+      "title": "Are AudioviSual maTERials disseminated via sOcIal meDia effective to improve evidence-based rehabilitation implementation for physiotherapists (ASTEROID trial)? A feasibility study.",
+      "authors": [
+        "Myllena M G Fernandes",
+        "Anna Carolina O Machado",
+        "Maurício S Fanfa",
+        "Ada C M Silveira",
+        "Rafaela A Schreiner",
+        "Anna Julia Meireles Dangui",
+        "Maitê M Pellenz",
+        "Daniela Rigo",
+        "Luiza Marx Matte",
+        "Emilly Renk Mello",
+        "Ane Priscila Diel",
+        "Brenda D Guterres",
+        "Lucas Dos Santos Costa",
+        "Bruna Wageck",
+        "Inaihá Laureano Benincá",
+        "Carolina Holz Nonnenmacher",
+        "Nadine Carneiro Tura",
+        "Laura Bortolozzo Leitão",
+        "Alessandro Haupenthal",
+        "Guilherme S Nunes"
+      ],
+      "journal": "BMC research notes",
+      "year": "2025",
+      "doi": "10.1186/s13104-025-07259-3",
+      "pmc_id": "PMC12063303",
+      "abstract": "The present study aimed to evaluate the feasibility of an educational program disseminated via social media to improve the scientific and technical knowledge of physiotherapists.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40340940/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40312556",
+      "title": "Questionnaires related to Evidence-Based Practice applied to dentists, faculty members or dental students: a scoping review.",
+      "authors": [
+        "Viviane Oliveira Prado",
+        "Carlos Flores-Mir",
+        "Magda Feres",
+        "Luciana Faria Sanglard",
+        "Rafaela Manente",
+        "Paulo Nelson-Filho",
+        "Murilo Fernando Neuppmann Feres"
+      ],
+      "journal": "Evidence-based dentistry",
+      "year": "2025",
+      "doi": "10.1038/s41432-025-01136-5",
+      "pmc_id": "2349778",
+      "abstract": "Numerous instruments have been suggested to analyze the essential Evidence-Based Dentistry (EBD) dimensions, but it is unclear whether they were comprehensive and validated appropriately.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40312556/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40307799",
+      "title": "Evidence-based practice utilization and associated factors among nurses in the emergency department of selected public hospitals, Addis Ababa, Ethiopia, 2024: cross-sectional study.",
+      "authors": [
+        "Mekuanint Kassie",
+        "Achamyelesh Tadele",
+        "Lemlem Beza",
+        "Ousman Adal",
+        "Aklilu Azazh"
+      ],
+      "journal": "BMC health services research",
+      "year": "2025",
+      "doi": "10.1186/s12913-025-12810-w",
+      "pmc_id": "PMC12044898",
+      "abstract": "Evidence-based practice use refers to the integration of current, reliable, and relevant evidence into healthcare decision-making. This includes findings from studies, professional experiences, and updated guidelines aimed at minimizing biases and enhancing clinical decisions based on comprehensive research.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40307799/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "40306998",
+      "title": "Evidence-based practice usage, knowledge and attitudes of healthcare professionals: a nationwide survey in the Maldives.",
+      "authors": [
+        "Dirk T Ubbink",
+        "Aishath Hamid",
+        "Fathimath Shifaza"
+      ],
+      "journal": "BMJ open",
+      "year": "2025",
+      "doi": "10.1136/bmjopen-2024-093609",
+      "pmc_id": "PMC12049935",
+      "abstract": "Evidence-based practice (EBP) is considered an essential principle to arrive at and ensure high-quality healthcare. This study aimed to determine the current knowledge, attitude and awareness among doctors, nurses and allied healthcare workers in the Maldives regarding the principles of EBP and the barriers experienced when practising EBP.",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40306998/",
+      "cited_by": "N/A",
+      "source": "PubMed"
+    },
+    {
+      "id": "c6d5f35aa59fed17050240f6c8c3d22dd6bf6a1f",
+      "title": "Đánh giá tác động khóa học thực hành dựa trên bằng chứng trên sinh viên điều dưỡng Trường Đại học Y dược Cần Thơ",
+      "authors": [
+        "Mai Nguyễn Thanh Trúc",
+        "Phạm Lê An",
+        "Jeanette Mcneill",
+        "Ngô Thị Phương Dung"
+      ],
+      "journal": "Tap chi nghien cuu y hoc",
+      "year": 2022,
+      "doi": "10.52852/tcncyh.v156i8.953",
+      "abstract": "Thực hành dựa trên bằng chứng (EBP) được xem là tiêu chuẩn vàng và công cụ hữu ích trong chăm sóc bệnh nhân cũng như nâng cao chất lượng nguồn nhân lực. Nhằm đáp ứng chuẩn năng lực của điều dưỡng Việt Nam và nâng cao chất lượng chăm sóc, bước quan trọng đầu tiên cần nâng cao nhận thức của sinh viên về EBP. Mục tiêu: so sánh sự thay đổi niềm tin và ứng dụng thực hành dựa trên bằng chứng của sinh viên điều dưỡng tham gia vào nghiên cứu. Đối tượng và phương pháp: nghiên cứu bán can thiệp thực hiện trên 46 sinh viên điều dưỡng đại học hệ chính quy tại khoa Điều dưỡng - Kỹ thuật Y học, Trường Đại học Y Dược Cần Thơ. Kết quả: sinh viên có niềm tin tích cực và cải thiện khả năng ứng dụng về EBP sau khi kết thúc khóa học (p < 0,05).",
+      "link": "https://www.semanticscholar.org/paper/c6d5f35aa59fed17050240f6c8c3d22dd6bf6a1f",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "2e5720e589d5634f4c61081e6fd20805d4a064dd",
+      "title": "15. KIẾN THỨC VÀ THỰC HÀNH PHÒNG NGỪA TÉ NGÃ CHO NGƯỜI BỆNH CỦA NHÂN VIÊN Y TẾ TẠI BỆNH VIỆN TRƯỜNG ĐẠI HỌC Y - DƯỢC HUẾ NĂM 2025",
+      "authors": [
+        "Trần Thị Mai Nhân",
+        "Đặng Thị Thanh Nhã",
+        "Lê Thị Phương Thảo",
+        "Nguyễn Thị Phương Thảo",
+        "Nguyễn Văn Tài"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66icd19.3551",
+      "abstract": "Mục tiêu: Nghiên cứu nhằm mô tả kiến thức, thực hành và một số yếu tố liên quan tới phòng ngừa té ngã cho người bệnh của nhân viên y tế tại Bệnh viện Trường Đại học Y -Dược Huế.\nPhương pháp: Nghiên cứu cắt ngang trên 203 điều dưỡng/hộ sinh tại Bệnh viện Trường Đại học Y – Dược Huế trong thời gian từ 04/2025 đến 07/2025. Sử dụng bộ câu hỏi tự điền để đánh giá kiến thức dựa trên công cụ \"Fall Knowledge Test – 2E\" của Tổ chức Nghiên cứu Y Tế và Chất Lượng kết hợp phương pháp quan sát có tham gia và bảng kiểm để đánh giá thực hành. Kết quả: Kết quả cho thấy 91,6% điều dưỡng có kiến thức đạt về phòng ngừa té ngã và 81,3% có thực hành đạt. Các yếu tố có mối liên quan có ý nghĩa thống kê với kiến thức tốt hơn về phòng ngừa té ngã cho người bệnh của NVYT là tuổi điều dưỡng ≥30, thâm niên trên 10 năm và được cập nhật kiến thức. Đối với thực hành, các yếu tố liên quan có ý nghĩa thống kê với thực hành tốt hơn gồm tuổi (OR=2,61; p=0,013), cập nhật kiến thức (OR=6,09; p=0,001) và mức độ kiến thức đạt  (OR=8,06; p=0,001).",
+      "link": "https://www.semanticscholar.org/paper/2e5720e589d5634f4c61081e6fd20805d4a064dd",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "ede13d7eec64c06a81078a806459465d7fee089b",
+      "title": "KIẾN THỨC VÀ NHỮNG RÀO CẢN VỀ GÓI DỰ PHÒNG VIÊM PHỔI LIÊN QUAN THỞ MÁY CỦA NHÂN VIÊN Y TẾ TẠI KHOA HỒI SỨC TÍCH CỰC, BỆNH VIỆN BẠCH MAI",
+      "authors": [
+        "Minh Hoàn Hoàng",
+        "Huy Hoàng Ngô",
+        "Xuân Cơ Đào"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2024,
+      "doi": "10.51298/vmj.v535i1b.8434",
+      "abstract": "Mục tiêu: Mô tả thực trạng kiến thức và những rào cản về gói dự phòng viêm phổi liên quan thở máy của nhân viên y tế (NVYT) tại khoa Hồi sức tích cực, Bệnh viện Bạch Mai. Đối tượng và phương pháp: 105 NVYT bao gồm 23 bác sỹ và 82 điều dưỡng trực tiếp thực hành gói dự phòng VPLQTM. Tất cả NVYT được phỏng vấn bộ công cụ khảo sát được xây dựng dựa trên kiến thức và rào cản thực hành. Kết quả: Đa số NVYT có kiến thức tốt 67,6%, khá 28,6%, trung bình 3,8%. Hầu hết có tỉ lệ trả lời đúng đạt trên 90%. Các giải pháp có tỉ lệ trả lời đúng dưới 80% bao gồm quản lý dây thở, quản lý áp lực bóng chèn, dự phòng loét dạ dày và huyết khối tĩnh mạch sâu. Đa số NVYT gặp rào cản 81,9%, trong đó, thường gặp nhất là về phía NVYT 67,6%, thấp nhất là về vật tư 47,6%. Các giải pháp thường gặp rào cản là: vận động và rời giường sớm và SBT hàng ngày và đánh giá rút ống. Kết luận: Mặc dù kiến thức và thái độ của nhân viên y tế đều đạt mức tốt nhưng trong quá trình thực hành còn gặp nhiều rào cản về phối hợp nhóm và vật tư y tế.",
+      "link": "https://www.semanticscholar.org/paper/ede13d7eec64c06a81078a806459465d7fee089b",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "dc3ac8b22b81f4982b21d7578be7a4a4b014c6a0",
+      "title": "Kiến thức, thái độ, thực hành báo cáo sự cố y khoa của nhân viên y tế tại Bệnh viện Phục hồi chức năng tỉnh Sơn La năm 2023",
+      "authors": [
+        "Phạm Đức Minh",
+        "Cao Xuân Thạnh",
+        "Nguyễn Thị Kim Oanh"
+      ],
+      "journal": "Tạp chí Y học Dự phòng",
+      "year": 2025,
+      "doi": "10.51403/0868-2836/2025/2193",
+      "abstract": "Nghiên cứu mô tả cắt ngang bằng hình thức phát vấn trên 131 nhân viên y tế tại Bệnh viện Phục hồi chức năng tỉnh Sơn La năm 2023 nhằm mô tả kiến thức, thái độ, thực hành báo cáo sự cố y khoa của nhân viên y tế. Kết quả cho thấy tỷ lệ nhân viên y tế (NVYT) có kiến thức chung đúng về sự cố y khoa (SCYK) là 71,8%, có thái độ tích cực là 86,3% và có thực hành đúng là 82,0%. Hình thức báo cáo bằng giấy chiếm đa số (81,8%). Thời gian trung bình để hoàn thành một báo cáo là 21,5 phút. Qua nghiên cứu cho thấy NVYT tại Bệnh viện Phục hồi chức năng tỉnh Sơn La phần lớn có kiến thức, thái độ và thực hành báo cáo SCYK tốt, tuy nhiên vẫn còn một bộ phận nhỏ chưa tốt, cần tăng cường hơn nữa kiến thức, thái độ và thực hành báo cáo sự cố y khoa của NVYT tại bệnh viện.",
+      "link": "https://www.semanticscholar.org/paper/dc3ac8b22b81f4982b21d7578be7a4a4b014c6a0",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "d215a582111bea0fdb8706cc933bbbc702afc6d9",
+      "title": "KHẢO SÁT HÀNH VI PHÂN BIỆT ĐỐI XỬ VỚI NGƯỜI NHIỄM HIV/AIDS CỦA NHÂN VIÊN Y TẾ TẠI BỆNH VIỆN THÀNH PHỐ THỦ ĐỨC",
+      "authors": [
+        "Nguyễn Thanh Trúc Trần",
+        "Trí Thanh Vũ"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2024,
+      "doi": "10.51298/vmj.v543i1.11314",
+      "abstract": "Mục tiêu: Nghiên cứu mô tả thực trạng kỳ thị và phân biệt đối xử với người nhiễm HIV/AIDS của nhân viên y tế tại Bệnh viện thành phố Thủ Đức. Phương pháp: Điều tra cắt ngang trên 120 nhân viên y tế bằng phương pháp phỏng vấn trực tiếp dựa trên bảng câu hỏi có cấu trúc, “Hướng dẫn giảm kỳ thị, phân biệt đối xử với người nhiễm HIV tại các cơ sở y tế”. Kết quả: Hầu hết nhân viên y tế đều cảm thấy lo lắng khi chạm vào đồ dùng cá nhân, băng bó vết thương hay lấy máu cho người nhiễm 80% NVYT lo sợ lây nhiễm HIV lúc thực hiện băng bó và lấy máu cho người bệnh và 35% sử dụng các biện pháp dự phòng không cần thiết. Phân tích hồi quy đa biến ghi nhận lao động biên chế (OR=0,14, p=0,009) và nữ giới sẽ có khả năng ít hực hiện hành vi phân biệt đối xử hơn (OR=0,20, p=0,018). Kết luận: Cần tiếp tục tập huấn để cải thiện hành vi phân biệt đối xử ở NVYT",
+      "link": "https://www.semanticscholar.org/paper/d215a582111bea0fdb8706cc933bbbc702afc6d9",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "261a6051f391bbc40b170750512a90bd4cf2ccb3",
+      "title": "40. ĐÁNH GIÁ HIỆU QUẢ TƯ VẤN CỦA NHÂN VIÊN Y TẾ ĐỐI VỚI THỰC HÀNH NUÔI CON BẰNG SỮA MẸ Ở SẢN PHỤ SINH THƯỜNG TẠI BỆNH VIỆN VINMEC TIMES CITY NĂM 2025",
+      "authors": [
+        "Trần Thị Nguyễn Hòa",
+        "Nguyễn Thị Ngọc Yến",
+        "Dương Năng Quyền",
+        "Nguyễn Thị Thu Hà",
+        "Đoàn Lê Huyền Trang",
+        "Nguyễn Thị Thu Hiền",
+        "Nguyễn Thị Phương Thoa",
+        "Vũ Thị Xuân Hoan",
+        "Nguyễn Thị Vân Linh"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66i5.3126",
+      "abstract": "Mục tiêu: Đánh giá hiệu quả hoạt động tư vấn của nhân viên y tế thực hiện đối với thực hành nuôi con bằng sữa mẹ ở sản phụ sinh thường tại Bệnh viện Vinmec Times City năm 2025.\nĐối tượng và phương pháp: Nghiên cứu mô tả cắt ngang có phân tích trên 250 sản phụ sinh thường đã tham gia lớp học tiền sản, được thực hiện từ tháng 1 đến tháng 5 năm 2025.\nKết quả: Điểm trung bình thái độ của sản phụ về nuôi con bằng sữa mẹ trước tư vấn là 3,52 ± 0,40 tăng lên 3,94 ± 0,55 sau lớp tư vấn. Điểm trung bình mức độ hài lòng của sản phụ đối với lớp tiền sản là 4,52/5 điểm, tư vấn trước sinh là 4,49/5 điểm, và tư vấn thực hành cho bú là 4,55/5 điểm, đều nằm ở mức rất cao.\nKết luận: Tư vấn của nhân viên y tế giúp cải thiện đáng kể thực hành nuôi con bằng sữa mẹ ở sản phụ sinh thường. Cần duy trì và mở rộng mô hình tư vấn này, kết hợp với các biện pháp hỗ trợ gia đình và cộng đồng nhằm tối ưu hóa việc tiếp cận và tăng tính hiệu quả.",
+      "link": "https://www.semanticscholar.org/paper/261a6051f391bbc40b170750512a90bd4cf2ccb3",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "5442496a235ba009f11e05871716ce6943f87b99",
+      "title": "Đánh giá năng lực thực hành dựa vào bằng chứng (EBP) của sinh viên điều dưỡng Trường Đại học Duy Tân",
+      "authors": [
+        "Thị Ngọc Bích Dương",
+        "Thị Hương Nguyễn",
+        "Thùy Dương",
+        "Lê Nguyễn"
+      ],
+      "journal": "Tạp chí Khoa học Điều dưỡng",
+      "year": 2022,
+      "doi": "10.54436/jns.2022.04.499",
+      "abstract": "Mục tiêu: Đánh giá năng lực Thực hành dựa vào bằng chứng (EBP) của sinh viên điều dưỡng, mức độ ảnh hưởng của các yếu tố rào cản và tìm hiểu các yếu tố liên quan.\nPhương pháp: Nghiên cứu mô tả cắt ngang tiến hành trên 134 sinh viên trường Đại học Duy Tân từ tháng 11/2021 đến tháng 1/2022. Bộ công cụ gồm 3 phần: đặc điểm nhân khẩu học, thang đánh giá năng lực EBP và thang đánh giá các mức độ ảnh hưởng của các yếu tố rào cản.\nKết quả: Sinh viên có năng lực tự nhận thức về EBP là 3,67 ± 0,49. Các yếu tố rào cản ảnh hưởng quan trọng nhất đến kỹ năng EBP là thiếu thời gian và thiếu sự quan tâm thích thú. Điểm trung bình kiến thức, thái độ và kỹ năng EBP có sự khác biệt với đặc điểm nhân khẩu học như năm học, xếp loại học lực, học/tham gia tập huấn về EBP, tần suất sử dụng internet, trình độ tiếng Anh (p < 0,05).\nKết luận: Năng lực thực hành dựa vào bằng chứng của sinh viên điều dưỡng trường Đại học Duy Tân khá cao. Tuy nhiên, vẫn còn các rào cản ảnh hưởng đến việc áp dụng EBP của sinh viên, đây cũng là thách thức đối với các nhà giáo dục điều dưỡng cần đưa ra các giải pháp nâng cao chất lượng chương trình giáo dục điều dưỡng.",
+      "link": "https://www.semanticscholar.org/paper/5442496a235ba009f11e05871716ce6943f87b99",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "9d6eb62efd2d07c931b323e2abba3be4bf2919e4",
+      "title": "Đánh giá hiệu quả giao tiếp của nhân viên y tế khi áp dụng mô hình aidet tại các khoa lâm sàng Bệnh viện Đa khoa huyện Yên Định, Thanh Hóa năm 2024",
+      "authors": [
+        "Thị Dịu Lê",
+        "V. Lê",
+        "Văn Bằng Phạm",
+        "Thị Thuỳ Dương Nguyễn",
+        "Bá Tâm Nguyễn",
+        "Thị Mai Quyên Trương",
+        "Thị Thuê Hoàng"
+      ],
+      "journal": "Tạp chí Khoa học Điều dưỡng",
+      "year": 2024,
+      "doi": "10.54436/jns.2024.06.928",
+      "abstract": "Mục tiêu: Đánh giá hiệu quả giao tiếp của nhân viên y tế trước và sau áp dụng mô hình AIDET tại các khoa lâm sàng Bệnh viện Đa khoa huyện Yên Định, Thanh Hóa năm 2024.\nĐối tượng và phương pháp nghiên cứu: Nghiên cứu can thiệp trước - sau được thực hiện trên 50 đối tượng là nhân viên y tế đang công tác tại Bệnh viện Đa Khoa huyện Yên Định từ tháng 3 đến tháng 11 năm 2024. Nghiên cứu sử dụng bộ công cụ được thiết kế sẵn để đánh giá hiệu quả giao tiếp của nhân viên y tế trước và sau can thiệp tập huấn mô hình AIDET dựa trên 5 tiêu chí của mô hình bao gồm: chào hỏi, giới thiệu, thời gian, giải thích và cảm ơn.\nKết quả: Điểm trung bình thực hành giao tiếp chung theo mô hình AIDET của nhân viên y tế ở 3 thời điểm sau can thiệp đều tăng so với trước can thiệp, điểm trung bình tăng từ 2,36 ± 1,35 (trước can thiệp) lên 4,68 ± 0,55 (sau can thiệp 2 tháng). Sự khác biệt giữa các thời điểm có ý nghĩa thống kê với p < 0,001. Tỷ lệ đạt chung sau can thiệp ở thời điểm T4 tăng thêm 74% so với trước can thiệp (từ 22% lên 96%), sự khác biệt có ý nghĩa thống kê với p < 0,05.\nKết luận: Can thiệp Mô hình AIDET cho nhân viên y tế giúp cải thiện điểm trung bình và tăng tỷ lệ đạt về thực hành giao tiếp theo mô hình AIDET.",
+      "link": "https://www.semanticscholar.org/paper/9d6eb62efd2d07c931b323e2abba3be4bf2919e4",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "651a26f69480c1210c0b562dbfd02815f7e53433",
+      "title": "THỰC TRẠNG KIẾN THỨC VÀ THỰC HÀNH VỀ TIÊM AN TOÀN CỦA NHÂN VIÊN Y TẾ BỆNH VIỆN MẮT TRUNG ƯƠNG, NĂM 2021",
+      "authors": [
+        "Thị Ly Trần",
+        "Văn Nhân Lê",
+        "Thanh Hà Tuấn Nguyễn",
+        "Văn Dũng Đào"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2023,
+      "doi": "10.51298/vmj.v523i1.4410",
+      "abstract": "Đặt vấn đề: Tiêm không an toàn có thể gây lây nhiễm nhiều loại tác nhân gây bệnh khác nhau như vi rút, vi khuẩn, nấm, và ký sinh trùng, đồng thời cũng có thể gây các biến chứng khác như áp-xe và phản ứng nhiễm độc. Mục tiêu: Mô tả kiến thức và thực hành về tiêm an toàn của nhân viên y tế (NVYT) Bệnh viện Mắt Trung ương. Phương pháp: Điều tra cắt ngang, nghiên cứu định lượng. Kết quả: Nghiên cứu thu thập thông tin từ 323 nhân viên y tế (NVYT), Bệnh viện Mắt Trung ương thông qua phát vấn bằng phiếu và bảng kiểm quan sát. Kết quả nghiên cứu cho thấy, tỷ lệ NVYT có kiến thức về thực hiện quy tắc vệ sinh hô hấp đạt 72,4%. Tỷ lệ NVYT thực hành tiêm an toàn đạt trên 92%.",
+      "link": "https://www.semanticscholar.org/paper/651a26f69480c1210c0b562dbfd02815f7e53433",
+      "cited_by": 1,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "f0bd565f7549ce06bc243c2903febd6d95870fa9",
+      "title": "33. KIẾN THỨC THỐNG KÊ BÁO CÁO Y TẾ CỦA CÁN BỘ, NHÂN VIÊN Y TẾ TẠI CÁC TRẠM Y TẾ XÃ HUYỆN HẬU LỘC VÀ QUẢNG XƯƠNG, TỈNH THANH HÓA NĂM 2024 VÀ MỘT SỐ YẾU TỐ LIÊN QUAN",
+      "authors": [
+        "Nguyễn Đình Căn",
+        "Đỗ Hòa Bình",
+        "Đỗ Thái Hòa",
+        "H. Yên",
+        "Trịnh Danh Minh",
+        "Lê Việt Anh",
+        "Nguyễn Văn Chiến",
+        "Nguyễn Minh Khoa",
+        "Trần Văn Nhường",
+        "Lê Hoàng Oanh",
+        "Nguyễn Thành Vinh",
+        "Phan Trọng Lân"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66i3.2523",
+      "abstract": "Mục tiêu: Mô tả kiến thức về thống kê báo cáo y tế của cán bộ, nhân viên y tế trạm y tế xã tại\nMục tiêu: Mô tả kiến thức về thống kê báo cáo y tế của cán bộ, nhân viên y tế trạm y tế xã tại huyện Hậu Lộc và Quảng Xương, tỉnh Thanh Hóa và phân tích một số yếu tố liên quan. huyện Hậu Lộc và Quảng Xương, tỉnh Thanh Hóa và phân tích một số yếu tố liên quan.\nĐối tượng và phương pháp nghiên cứu: Nghiên cứu cắt ngang thực hiện tại 48 trạm y tế xã thuộc hai huyện từ tháng 01/2024 đến tháng 02/2025. Dữ liệu được thu thập bằng bộ câu hỏi chuẩn hóa dựa trên các thông tư ngành y tế về thống kê báo cáo y tế và ý kiến chuyên gia.\nKết quả: Trong 234 cán bộ, nhân viên y tế tham gia khảo sát (tỷ lệ phản hồi 83,5%), 57,3% có kiến thức đạt về thống kê báo cáo y tế. Tỷ lệ này cao hơn có ý nghĩa thống kê tại huyện Quảng Xương so với Hậu Lộc (63,4% so với 36,6%, p<0,001). Tại huyện Hậu Lộc, nhân viên y tế có thâm niên công tác từ 11–20 năm có xu hướng đạt kiến thức cao hơn so với nhóm thâm niên 1–10 năm (OR: 3,59; 95%CI: 1,18–10,93; p=0,024). Ngược lại, cán bộ, nhân viên y tế chưa từng tham gia tập huấn về thống kê báo cáo hoặc chưa được hướng dẫn sử dụng phần mềm quản lý y tế cơ sở có xu hướng đạt kiến thức thấp hơn nhóm đã tập huấn.\nKết luận: Kiến thức thống kê báo cáo y tế của cán bộ, nhân viên y tế trạm y tế xã còn chưa đồng đều giữa các huyện, đặc biệt thấp ở nhóm có thâm niên công tác ngắn và chưa được đào tạo hoặc hướng dẫn thực hành thống kê báo cáo y tế tại huyện Hậu Lộc.",
+      "link": "https://www.semanticscholar.org/paper/f0bd565f7549ce06bc243c2903febd6d95870fa9",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "5ebc8365639bbdc24718ece8ef3052167ee55186",
+      "title": "THỰC TRẠNG CẢM NHẬN CĂNG THẲNG NHIỆT CỦA NHÂN VIÊN Y TẾ TUYẾN HUYỆN KHI SỬ DỤNG TRANG PHỤC BẢO HỘ CÁ NHÂN THAM GIA PHÒNG, CHỐNG DỊCH COVID-19 TẠI TỈNH VĨNH LONG 2021",
+      "authors": [
+        "Ngọc Bích Nguyễn",
+        "Thanh Phong Huỳnh"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2023,
+      "doi": "10.51298/vmj.v532i1.7335",
+      "abstract": "Căng thẳng nhiệt do trang bị phòng hộ cá nhân có tác động tiêu cực đến hiệu suất công việc, sức khoẻ và sự an toàn của người mặc. Nghiên cứu được thực hiện nhằm mô tả thực trạng cảm nhận căng thẳng nhiệt của nhân viên y tế (NVYT) khi tham gia phòng chống dịch và các yếu tố liên quan đến căng thẳng nhiệt tại các trung tâm y tế tuyến huyện thuộc tỉnh Vĩnh Long năm 2021. Nghiên cứu được thực hiện trên 416 nhân viên y tế tại 08 Trung tâm y tế huyện, thị, thành phố trên địa bàn tỉnh Vĩnh Long từ tháng 06 năm 2021 đến tháng 03 năm 2022 bằng phương pháp chọn mẫu toàn bộ. dựa trên bộ công cụ tự điền nhận thức về mức độ căng thẳng nhiệt của NVYT khi mặc trang phục bảo hộ cá nhân (TPBHCN) của Davey S. Kết quả nghiên cứu cho thấy 86,8% nhân viên y tế có biểu hiện căng thẳng nhiệt. Tất cả nhân viên y tế khi mặc TPBHCN cảm thấy nóng đến không thể chịu đựng được, có 92,3% nhân viên y tế cảm thấy không thoải mái khi mặc TPBHCN. Các trung tâm y tế cần bổ sung đầy đủ các trang phục phòng hộ cá nhân, đảm bảo nhu cầu sử dụng cho từng ca trực của NVYT, có chính sách phân công công việc phù hợp với sức khỏe từng NVYT và thực hiện các biện pháp giảm nhiệt độ tại nơi làm việc.",
+      "link": "https://www.semanticscholar.org/paper/5ebc8365639bbdc24718ece8ef3052167ee55186",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "3a4669e56f531e98cc32021d235c1c23e99aacc0",
+      "title": "Động lực làm việc của nhân viên y tế tại bệnh viện Bắc Thăng Long, Hà Nội năm 2024 và một số yếu tố liên quan",
+      "authors": [
+        "Thị Bình Minh Dương",
+        "Thị Nguyên Lưu",
+        "Thanh Tâm Bùi",
+        "Thị Lan An",
+        "Hoài Thu Nguyễn",
+        "Thị Nhung Tiêu",
+        "T. Hoàng",
+        "Thị Hạnh Nguyễn",
+        "T. Lê",
+        "Lan Hương Hoàng"
+      ],
+      "journal": "Tạp chí Khoa học Điều dưỡng",
+      "year": 2025,
+      "doi": "10.54436/jns.2025.06.1089",
+      "abstract": "Mục tiêu: Đánh giá mức độ động lực làm việc của nhân viên y tế tại Bệnh viện Bắc Thăng Long, Hà Nội năm 2024 và xác định một số yếu tố liên quan.\nĐối tượng và phương pháp: Nghiên cứu mô tả cắt ngang được thực hiện trên 300 nhân viên y tế đáp ứng tiêu chí chọn mẫu. Động lực làm việc được đo lường bằng bảng hỏi xây dựng dựa trên thuyết hai nhân tố của Herzberg với thang đo Likert năm mức; quy ước “có động lực” khi điểm trung bình từ 3,75 trở lên.\nKết quả: Tỷ lệ nhân viên y tế được đánh giá “có động lực” đạt 79,7%. Điểm trung bình động lực chung 4,14 trên 5; các thành phần có điểm cao gồm trách nhiệm với công việc (4,25) và bản chất công việc (4,24); sự thừa nhận thành tích thấp nhất (3,99). Nhóm từ 35 tuổi trở lên có động lực cao hơn nhóm dưới 35 tuổi (84,8% so với 67,4%; OR: 0,370; 95%CI: 0,207–0,662). Nhóm đã kết hôn có động lực cao hơn nhóm độc thân (83,6% so với 45,2%; OR: 0,161; 95%CI: 0,074–0,350). Không thấy khác biệt về động lực làm việc theo giới và trình độ học vấn.\nKết luận: Động lực làm việc của nhân viên y tế tại bệnh viện tuyến thành phố ở mức cao, nổi bật ở các yếu tố mang tính nội tại (trách nhiệm và bản chất công việc) nhưng còn khoảng trống về cơ chế thừa nhận thành tích. Các ưu tiên can thiệp gồm: thể chế hóa ghi nhận và khen thưởng theo nhiều tầng, tăng cường giám sát hỗ trợ, tối ưu các yếu tố điều kiện vệ sinh công việc, và cá thể hóa hỗ trợ theo nhóm tuổi và tình trạng hôn nhân.",
+      "link": "https://www.semanticscholar.org/paper/3a4669e56f531e98cc32021d235c1c23e99aacc0",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "275438cb6c97c1d1faf31c0eea6d4f951748ab70",
+      "title": "KIẾN THỨC VÀ THỰC HÀNH PHÒNG, CHỐNG BỆNH ĐẬU MÙA KHỈ CỦA NHÂN VIÊN Y TẾ VÀ MỘT SỐ YẾU TỐ LIÊN QUAN TẠI TỈNH ĐẮK LẮK NĂM 2022",
+      "authors": [
+        "Thị Minh Hương Lê",
+        "Thị Phương Thảo Đặng",
+        "Thị Hậu Vũ"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2023,
+      "doi": "10.51298/vmj.v524i1a.4681",
+      "abstract": "Bằng phương pháp nghiên cứu mô tả cắt ngang với việc thu thập dữ liệu trực tuyến và đăng liên kết khảo sát trên nhóm Google form. Chúng tôi đã thực hiện khảo sát 1.471 nhân viên y tế (NVYT) về kiến thức và thực hành phòng, chống bệnh Đậu mùa khỉ (ĐMK) và một số yếu tố liên quan tại tỉnh Đắk Lắk. Mẫu nghiên cứu có 27,3% là nam giới và 72,7% là nữ giới. Độ tuổi trung bình là 36,1 ± 8,4 tuổi. Dân tộc Kinh chiếm 77,2%. Có 87,6% NVYT không theo tôn giáo nào. Trình độ chuyên môn của NVYT: Bác sỹ (18,1%), điều dưỡng (31,5%), kỹ thuật viên (10,6%), nữ hộ sinh (8,7%) và chuyên ngành y tế khác (31,1%). 62,1% người tham gia nghiên cứu ở khu vực thành thị. 99,3% NVYT đã được nghe nói về bệnh ĐMK. Kênh tiếp nhận thông tin chủ yếu từ các nguồn: báo chí và truyền hình (98%), internet, mạng xã hội (98%); hàng xóm, người thân (70%) và loa phát thanh (69,1%). Điểm trung bình chung của kiến thức là 14,8±1,7/18 điểm. Có 60,8% NVYT tham gia nghiên cứu có kiến thức tốt phòng chống bệnh ĐMK. Có sự khác biệt kiến thức chung về phòng, chống bệnh ĐMK với trình độ chuyên môn (p<0,05). Điểm trung bình chung của thực hành là 6,4 ± 0,9/ 8 điểm. Có 55,9% NVYT tham gia nghiên cứu có thực hành đúng phòng chống bệnh ĐMK. Có sự khác biệt thực hành chung về phòng, chống bệnh ĐMK giữa NVYT nam và nữ (p = <0,05). Có mối tương quan thuận giữa kiến thức chung với thực hành chung (r=0,135, N=1.471, p<0,001) về phòng, chống bệnh ĐMK.",
+      "link": "https://www.semanticscholar.org/paper/275438cb6c97c1d1faf31c0eea6d4f951748ab70",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "c950a6badd55cd36addbfb100b2b94018964dc59",
+      "title": "KHẢO SÁT NHẬN THỨC CỦA NHÂN VIÊN Y TẾ VỀ CÁC YẾU TỐ ABCDE TRONG ĐIỀU TRỊ ĐÁI THÁO ĐƯỜNG TYP II BẰNG THUỐC DẠNG UỐNG",
+      "authors": [
+        "Ngọc Tâm Nguyễn",
+        "Thị Thu Hường Nguyễn",
+        "Minh Thư Ngô",
+        "Thị Thanh Huyền Vũ"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2024,
+      "doi": "10.51298/vmj.v542i1.10959",
+      "abstract": "Nghiên cứu này nhằm khảo sát nhận thức của nhân viên y tế về các yếu tố liên quan đến các thuốc điều trị đái tháo đường dạng uống bao gồm: hiệu quả kiểm soát HbA1c (A), hiệu quả trên quản lý cân nặng (B), tác dụng phụ gây biến chứng hạ đường huyết (C), thời gian và chi phí điều trị (D), tác dụng bảo vệ tim mạch và tác dụng bảo vệ thận (E). Nghiên cứu mô tả cắt ngang được thực hiện trên toàn quốc từ tháng 03 đến tháng 05 năm 2024 với hơn 20000 phiếu khảo sát trực tuyến được gửi đi tới các nhân viên y tế. Phiếu khảo sát bao gồm các câu hỏi liên quan đến chuyên khoa và nơi công tác, 5 câu hỏi liên quan đến các thông số ABCDE với các mức độ từ 1 đến 5. Kết quả cho thấy Gliclazide MR và Metformin là 02 nhóm thuốc có tỉ lệ hiệu quả trên HbA1c cao nhất lần lượt là 60,3% và 43,5% trên tổng số 603 câu trả lời. Nhóm thuốc GLP-1 có tỉ lệ cao nhất với 35,0% tác dụng trên cân nặng trên tổng số 360 phiếu. Mức độ hạ đường huyết ít nhất là nhóm thuốc Ức chế SGLT-2 (34,0%) và Metformin (32,4%) trên tổng số 529 phiếu. Metformin và Gliclazide MR vẫn là 02 nhóm thuốc có tỉ lệ tuân thủ với chi phí hợp lý cao nhất với Metformin là 55,35% và nhóm Gliclazide MR chiếm 49,02% trên tổng số 663 phiếu. Tỉ lệ nhân viên y tế trả lời về tác dụng bảo vệ thận có tỉ lệ cao là nhóm ức chế SLGT-2 (46,4%) và bảo vệ tim mạch với 51,1% trên tổng 919 phiếu. Khảo sát đưa ra số liệu ban đầu về nhận thức của nhân viên y tế về các yếu tố ABCDE trong điều trị ĐTĐ typ 2 sử dụng nhóm thuốc điều trị đái tháo đường dạng uống trên phạm vi toàn quốc. Việc lựa chọn đơn trị hay phối hợp thuốc để điều trị ĐTĐ cần cá thế hoá dựa trên tác dụng và các yếu tố đặc thù của người bệnh.",
+      "link": "https://www.semanticscholar.org/paper/c950a6badd55cd36addbfb100b2b94018964dc59",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "fd12a86497c0fd3e30671313548f03854aa54fb6",
+      "title": "THỰC TRẠNG VÀ MỘT SỐ YẾU TỐ LIÊN QUAN ĐẾN VĂN HOÁ AN TOÀN NGƯỜI BỆNH CỦA NHÂN VIÊN Y TẾ TẠI BỆNH VIỆN ĐA KHOA PHỐ NỐI, HƯNG YÊN NĂM 2023",
+      "authors": [
+        "Minh Đức Cáp",
+        "Thành Vũ Thị",
+        "Văn Hán Phạm",
+        "Minh Khuê Phạm"
+      ],
+      "journal": "Tạp chí Y học Dự phòng",
+      "year": 2025,
+      "doi": "10.51403/0868-2836/2025/2368",
+      "abstract": " Nghiên cứu cắt ngang nhằm mô tả thực trạng và một số yếu tố liên quan đến văn hóa an toàn người bệnh (VHATNB) của nhân viên y tế (NVYT) tại Bệnh viện Đa khoa Phố Nối, Hưng Yên trong thời gian từ tháng 01-10/2023. Số liệu được thu thập thông qua bảng hỏi tự điền sử dụng thang đo khảo sát VHATNB tại bệnh viện (HSOPSC). Kết quả nghiên cứu cho thấy, trong tổng số 371 NVYT, tỷ lệ phản hồi tích cực về VHATNB đạt 81,3%. Một số điểm yếu cần cải thiện trong VHATNB là các lĩnh vực “nhân sự” (63,2%) và “không xử phạt khi có sự cố” (61,8%). Yếu tố liên quan có ý nghĩa thống kê đến phản hồi tích cực chung về VHATNB của NVYT là nhân viên làm việc trong môi trường bệnh viện trên 5 năm (OR= 2,6, 95%CI:1,0 - 6,8). Bệnh viện cần khuyến khích NVYT chủ động báo cáo sự cố, tổ chức các khóa đào tạo, tập huấn nâng cao kỹ năng làm việc nhóm. Bên cạnh đó, để phát triển VHATNB một cách toàn diện, cần chú trọng đào tạo và hỗ trợ đội ngũ nhân viên mới, đồng thời phát huy vai trò dẫn dắt của các nhân viên có thời gian làm việc lâu năm.",
+      "link": "https://www.semanticscholar.org/paper/fd12a86497c0fd3e30671313548f03854aa54fb6",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "5f132f24cda95b26f23b3fd98a1cb6e39ffa3ea7",
+      "title": "HIỆU QUẢ NÂNG CAO KIẾN THỨC CHĂM SÓC SỨC KHỎE BAN ĐẦU CỦA NHÂN VIÊN Y TẾ CƠ SỞ TẠI TỈNH BÌNH DƯƠNG NĂM 2024 - 2025",
+      "authors": [
+        "Phi Huỳnh Anh",
+        "Hữu Lê Minh",
+        "Chín Huỳnh Minh",
+        "Nam Nguyễn Việt"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2025,
+      "doi": "10.51298/vmj.v552i3.15161",
+      "abstract": "Đặt vấn đề: Kết quả các nghiên cứu trước chỉ ra thực trạng về lỗ hỏng kiến thức chăm sóc sức khoẻ ban đầu (CSSKBĐ) của nhân viên y tế cơ sở tỉnh Bình Dương [1]. Từ đó phân tích các nguyên nhân và đề xuất các giải pháp hiệu quả nâng cao kiến thức chăm sóc sức khoẻ ban đầu nhằm bảo đảm hoạt động y tế cơ sở tại Bình Dương. Mục tiêu nghiên cứu: Đánh giá hiệu quả nâng cao kiến thức chăm sóc sức khỏe ban đầu của nhân viên y tế tuyến cơ sở tỉnh Bình Dương năm 2024 - 2025. Đối tượng và phương pháp nghiên cứu: Nghiên cứu can thiệp có so sánh trước và sau can thiệp trên 360 NVYT tuyến cơ sở tại tỉnh Bình Dương. Các đối tượng được chia thành 2 nhóm: 182 NVYT (nhóm can thiệp); 178 NVYT (nhóm chứng). Chúng tôi tiến hành tập huấn kiến thức về CSSKBĐ trong vòng ba tháng từ tháng 10 đến tháng 12 năm 2024, định kỳ mỗi tháng một lần. Công cụ đánh giá là bộ câu hỏi 50 mục về khái niệm, nội dung, nguyên tắc và đặc trưng CSSKBĐ. Hiệu quả tính bằng HQCT (%) = CSHQ can thiệp – CSHQ đối chứng. Kết quả: Sau can thiệp, tỷ lệ NVYT đạt kiến thức về CSSKBĐ tăng từ 57,69% lên 97,25% (p<0,001) ở nhóm can thiệp với hiệu quả can thiệp 67,61%. Kết luận: Chương  trình tập huấn thực hiện đã cải thiện rõ rệt kiến thức và góp quan trọng cho công tác nâng cao chất lượng chăm sóc sức khoẻ ban đầu. Kiến nghị: nhân rộng mô hình sang các khu vực còn lại trong tỉnh.",
+      "link": "https://www.semanticscholar.org/paper/5f132f24cda95b26f23b3fd98a1cb6e39ffa3ea7",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "ed4c849bcf8d9c30cbb29eff1814a557be98627a",
+      "title": "ĐÁNH GIÁ KIẾN THỨC, THÁI ĐỘ VÀ THỰC HÀNH CỦA NHÂN VIÊN Y TẾ TRONG SỬ DỤNG BỆNH ÁN ĐIỆN TỬ TẠI BỆNH VIỆN ĐA KHOA KHU VỰC LONG KHÁNH NĂM 2023",
+      "authors": [
+        "Văn Minh Hải Hồ",
+        "Thái Thanh Tâm Trần",
+        "Trung Kiên Nguyễn",
+        "Tấn Đạt Nguyễn"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2024,
+      "doi": "10.51298/vmj.v536i2.8889",
+      "abstract": "Mục tiêu: (1) Xác định tỷ lệ nhân viên y tế có kiến thức, thái độ và thực hành đúng về sử dụng bệnh án điện tử tại Bệnh viện Đa khoa Khu vực Long Khánh (2) Tìm hiểu các yếu tố liên quan đến kiến thức, thái độ và thực hành đúng về sử dụng bệnh án điện tử của nhân viên y tế tại Bệnh viện Đa khoa Khu vực Long Khánh. (3) Đánh giá kết quả quả can thiệp ứng dụng bệnh án điện tử trong quản lý khám chữa bệnh tại Bệnh viện Đa khoa Khu vực Long Khánh. Phương pháp: thiết kế nghiên cứu cắt ngang mô tả kết hợp can thiệp không nhóm chứng trên 214 nhân viên y tế của Bệnh viên đa khoa khu vực Long Khánh từ tháng 01 năm 2019 đến hết tháng 12/2023. Kết quả: Tỷ lệ nhân viên y tế có kiến thức, thái độ và thực hành tốt là 43%. Có mối liên quan giữa tuổi, chuyên môn và mức ủng hộ, kiến thức thực hành về sử dụng bệnh án điện tử, cụ thể những nhân viên dưới 35 tuổi có tỷ số chênh cao hơn 2,18 lần so với nhân viên trên 35 tuổi (KTC 95%: 1,17-4,04) và nhân viên y tế có chuyên môn kế toán có kiến thức, thái độ thực hành tốt hơn so với nhóm điều dưỡng 3,45 lần (KTC 95%: 1,02-11,71), sự khác biệt có ý nghĩa thống kê (P<0,05). Tỷ lệ nhân viên y tế hiểu biết về ưu điểm của bệnh án điện tử đối với bệnh viện, người bệnh, trước và sau can thiệp đều có sự cải thiện đáng kể, với ý nghĩa thống kê (P<0,001) khi xem xét về cận lâm sàng, chẩn đoán, kê thuốc điều trị, xuất viện, hiệu quả kinh tế. Kết luận: Phần lớn nhân viên ủng hộ việc sử dụng bệnh án điện tử, và sau quá trình can thiệp, tỷ lệ kiến thức của nhân viên đã có sự cải thiện đáng kể.",
+      "link": "https://www.semanticscholar.org/paper/ed4c849bcf8d9c30cbb29eff1814a557be98627a",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "75ef31bddbc0cf8293cdf290bb89434271833c87",
+      "title": "SO SÁNH SỰ THAY ĐỔI SAU CAN THIỆP VỀ THỰC HÀNH 5S CỦA NHÂN VIÊN Y TẾ TẠI BỆNH VIỆN TRƯỜNG ĐẠI HỌC Y DƯỢC CẦN THƠ, NĂM 2022",
+      "authors": [
+        "van Nguyen Nguyen",
+        "Ngọc Quang Lã",
+        "Văn Tập Nguyễn",
+        "Q. Nguyễn"
+      ],
+      "journal": "Tạp chí Y học Việt Nam",
+      "year": 2024,
+      "doi": "10.51298/vmj.v539i3.10045",
+      "abstract": "5S là phương pháp quản lý chất lượng được áp dụng rộng rãi trên thế giới. Hiện chưa có nghiên cứu đánh giá khoa học về hiệu quả thực hành 5S trong thay đổi chất lượng dịch vụ chăm sóc sức khỏe. Tác động của việc áp dụng phương pháp quản lý 5S trong lĩnh vực chăm sóc sức khỏe đã được ghi nhận ở nhiều nghiên cứu trên thế giới và tại Việt Nam. Mục tiêu của nghiên cứu là so sánh sự thay đổi thực hành về 5S của nhân viên y tế tại Bệnh viện trường Đại học Y dược Cần Thơ sau một năm can thiệp. Phương pháp nghiên cứu can thiệp, đánh giá trước và sau can thiệp, chọn mẫu toàn bộ nhân viên y tế tại Bệnh viện trường Đại học Y dược Cần Thơ. Sử dụng bảng kiểm 5S của tổ chức JICA. Kết quả cho thấy sau một năm can thiệp, tỷ lệ NVYT có thực hành tốt về 5S ở tất cả  lĩnh vực đều gia tăng so với khảo sát ban đầu. Trong đó, nghiên cứu tìm thấy sự thay đổi có ý nghĩa thống kê ở lĩnh vực Dịch vụ chăm sóc và điều trị, tăng từ 70,98% lên 72,55%; lĩnh vực Chất lượng chăm sóc và điều trị tăng từ 64,71% lên 76,47%; lĩnh vực Chi phí tăng từ 55,69% lên 56,86%; lĩnh vực Vận chuyển từ 71,76% lên 78,04%; lĩnh vực Đạo đức tăng từ 71,76% lên 76,08% và lĩnh vực Tổ chức 5S, nhóm cải tiến chất lượng tăng từ 63,53% lên 69,41%. ",
+      "link": "https://www.semanticscholar.org/paper/75ef31bddbc0cf8293cdf290bb89434271833c87",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "7e5441acd7a0fc0bdd9001f3105a71543de8aa70",
+      "title": "TÌNH TRẠNG TRẦM CẢM, LO ÂU, CĂNG THẲNG VÀ CÁC YẾU TỐ LIÊN QUAN CỦA NHÂN VIÊN Y TẾ TẠI BỆNH VIỆN QUÂN Y 175 NĂM 2024",
+      "authors": [
+        "Tuấn Trần Minh",
+        "Ninh Đinh Vũ Ngọc",
+        "Bình Lưu Thị",
+        "Huyền Trần Phương",
+        "Hằng Cao Thị Thanh"
+      ],
+      "journal": "Tạp chí Y Dược Thực hành 175",
+      "year": 2025,
+      "doi": "10.59354/ydth175.2025.387",
+      "abstract": "Mục tiêu: Đánh giá tình trạng trầm cảm, lo âu, căng thẳng và các yếu tố liên quan của nhân viên y tế tại Bệnh viện Quân y 175 năm 2024. \nPhương pháp nghiên cứu: Nghiên cứu sử dụng thiết kế mô tả cắt ngang trên 258 nhân viên y tế đang làm việc tại Bệnh viện Quân y 175. Thời gian thu thập dữ liệu là từ tháng 3/2024 đến tháng 5/2024. Thực trạng trầm cảm, lo âu và căng thẳng của nhân viên y tế (NVYT) được xác định bằng Thang đo DASS-21. Số liệu được xử lý và thống kê bằng phần mềm Microsoft Excel 2019 và SPSS phiên bản 20.0. \nKết quả: Tỷ lệ biểu hiện trầm cảm, lo âu và căng thẳng trong công việc của NVYT tại Bệnh viện Quân y 175 lần lượt là 43.4%, 60.1%, 49.6% và phần lớn là mức độ nhẹ. Các yếu tố liên quan đến sức khỏe tâm thần của NVYT bao gồm: mức thu nhập hàng tháng, chức vụ nhân viên, đồng nghiệp hỗ trợ chia sẻ trong công việc, tần suất gặp áp lực về thủ tục hành chính, tần suất tiếp xúc yếu tố nguy hiểm và tần suất chứng kiến các ca biến chứng nặng hoặc tử vong (p<0.05). \nKết luận: Kết quả cho thấy các yếu tố về công việc có ảnh hưởng đến tình trạng trầm cảm, lo âu, căng thẳng của NVYT tại Bệnh viện Quân y 175. Vì vậy, cần có các biện pháp phù hợp, cải thiện tình trạng này của NVYT.",
+      "link": "https://www.semanticscholar.org/paper/7e5441acd7a0fc0bdd9001f3105a71543de8aa70",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "3fa1c03d524146124034b7743cbd93c361113b4c",
+      "title": "KIẾN THỨC, THÁI ĐỘ CỦA ĐIỀU DƯỠNG VỀ THỰC HÀNH DỰA TRÊN CHỨNG CỨ VÀ MỘT SỐ YẾU TỐ LIÊN QUAN",
+      "authors": [
+        "Thị Kim Thoa Lê",
+        "Thị Ngọc Dung Ngô",
+        "Hồng Thiệp Nguyễn",
+        "Văn Hiếu Phan",
+        "Thị Thanh Tâm Nguyễn",
+        "Thị Thanh Tâm Nguyễn"
+      ],
+      "journal": "Tạp chí Y Dược học Cần Thơ",
+      "year": 2024,
+      "doi": "10.58490/ctump.2024i74.2425",
+      "abstract": "Đặt vấn đề: Thực hành dựa trên chứng cứ (EBP) là việc đưa ra quyết định chuyên môn dựa vào bằng chứng khoa học tốt nhất cùng với trải nghiệm lâm sàng và các giá trị của người bệnh. EBP được xem là tiêu chuẩn vàng trong việc cung cấp dịch vụ chăm sóc người bệnh an toàn, chất lượng cao và trở thành mối quan tâm trên toàn thế giới. Trong lĩnh vực Điều dưỡng, các dịch vụ chăm sóc và kỹ thuật được cung cấp trực tiếp liên quan đến sức khỏe và tính mạng của con người. Vì vậy, kiến thức và thực hành điều dưỡng cần được xây dựng trên cơ sở khoa học chặt chẽ để đảm bảo chất lượng chăm sóc tốt nhất cho người bệnh. Mục tiêu nghiên cứu: Xác định mức độ về kiến thức, thái độ của điều dưỡng về thực hành dựa trên chứng cứ và một số yếu tố liên quan. Đối tượng và phương pháp nghiên cứu: Nghiên cứu cắt ngang mô tả, thực hiện trên 124 điều dưỡng đang công tác tại Bệnh viện Trường Đại học Y Dược Cần Thơ. Kết quả: Điểm đánh giá kiến thức của điều dưỡng về EBP có giá trị trung bình là 3,58 ± 0,48 và thái độ là 3,79 ± 0,48 . Có mối liên quan giữa trình độ chuyên môn và việc tham gia khóa học thực hành dựa trên bằng chứng của điều dưỡng với kiến thức EBP. Ngoài ra, trình độ chuyên môn, chức vụ, tham gia khóa học nghiên cứu khoa học và khóa học thực hành dựa trên bằng chứng có sự tương quan với thái độ của điều dưỡng đối với EBP. Kết luận: Cần tạo cơ hội cho điều dưỡng nâng cao trình độ chuyên môn, tham gia vào các khóa học thực hành và nghiên cứu khoa học. Điều này sẽ giúp cải thiện kiến thức và thúc đẩy việc áp dụng EBP trong thực hành lâm sàng, từ đó nâng cao chất lượng dịch vụ chăm sóc.",
+      "link": "https://www.semanticscholar.org/paper/3fa1c03d524146124034b7743cbd93c361113b4c",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "1517c14e18167aafec743e398ffc93e9ecd4f5e5",
+      "title": "30. THỰC HÀNH THỐNG KÊ BÁO CÁO Y TẾ CỦA CÁN BỘ, NHÂN VIÊN Y TẾ TẠI CÁC TRẠM Y TẾ XÃ HUYỆN HẬU LỘC VÀ QUẢNG XƯƠNG, TỈNH THANH HÓA NĂM 2024 VÀ MỘT SỐ YẾU TỐ LIÊN QUAN",
+      "authors": [
+        "Nguyễn Đình Căn",
+        "Đỗ Hòa Bình",
+        "Đỗ Thái Hòa",
+        "H. Yên",
+        "Trịnh Danh Minh",
+        "L. Việt",
+        "Nguyễn Văn Chiến",
+        "Lê Hoàng Oanh",
+        "Nguyễn Thành Vinh",
+        "Nguyễn Đình Khải",
+        "Phan Trọng Lân"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66icd8.2576",
+      "abstract": "Mục tiêu: Mô tả thực hành về thống kê báo cáo y tế của cán bộ, nhân viên y tế tại các trạm y tế xã tại huyện Hậu Lộc và huyện Quảng Xương, tỉnh Thanh Hóa và phân tích một số yếu tố liên quan. \nĐối tượng và phương pháp: Nghiên cứu cắt ngang được tiến hành tại 48 trạm y tế xã của 2 huyện từ tháng 1/2024 đến tháng 2/2025. Dữ liệu thu thập qua bộ câu hỏi chuẩn hóa, xây dựng dựa trên các thông tư ngành y tế về thống kê báo cáo y tế và ý kiến chuyên gia. \nKết quả: Trong số 219 cán bộ, nhân viên y tế tham gia khảo sát, 91,3% có thực hành đạt về thống kê báo cáo y tế. Tỉ lệ thực hành đạt tại huyện Quảng Xương cao hơn có ý nghĩa thống kê so với huyện Hậu Lộc (67% so với 33%, p = 0,003). Không ghi nhận sự khác biệt có ý nghĩa thống kê giữa các yếu tố nhân khẩu học như tuổi, giới tính, trình độ chuyên môn và thâm niên công tác với tỉ lệ thực hành đạt. \nKết luận: Tỉ lệ thực hành đạt về thống kê báo cáo y tế của cán bộ, nhân viên y tế tại các trạm y tế xã ở mức cao, đặc biệt tại huyện Quảng Xương. Các yếu tố nhân khẩu học không ảnh hưởng đáng kể đến tỉ lệ thực hành đạt tại 2 huyện này.",
+      "link": "https://www.semanticscholar.org/paper/1517c14e18167aafec743e398ffc93e9ecd4f5e5",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "056de4c3acb24cede7848813e352477c613386aa",
+      "title": "5. MÔ TẢ NHẬN THỨC VÀ THỰC TRẠNG THỰC HÀNH BÀI TẬP PHỤC HỒI CHỨC NĂNG SAU PHẪU THUẬT VÚ TẠI BỆNH VIỆN UNG BƯỚU HÀ NỘI",
+      "authors": [
+        "Nguyễn Thị Như Điệp",
+        "Phạm Thị Thanh Hiền"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66icd7.2382",
+      "abstract": "Mục tiêu: Mô tả nhận thức và thực trạng thực hành bài tập phục hồi chức năng (PHCN) cùng một số yếu tố ảnh hưởng đến nhận thức bài tập phục hồi chức năng sau phẫu thuật vú tại bệnh viện Ung bướu Hà Nội năm 2024. \nĐối tượng và phương pháp nghiên cứu: Nghiên cứu mô tả cắt ngang, từ 04/2024 đến tháng 08/2024 trên 142 bệnh nhân ung thư vú đã được phẫu thuật và hiện điều trị tại khoa Nội Tổng hợp Điều trị ban ngày theo yêu cầu - Bệnh viện Ung bướu Hà Nội. \nKết quả: \nNhận thức của bệnh nhân: Đa số bệnh nhân đều nhận thức được dấu hiệu phù bạch huyết là sưng ở cánh tay hoặc bàn tay (92,25%). Điểm số trung bình của nhận thức về lợi ích Biến chứng phù bạch huyết có thể phòng ngừa bằng bài tập PHCN là cao nhất (4,19 điểm). Ảnh hưởng lớn nhất của nhận thức về rào cản thực hiện luyện tập là Tập bài PHCN gây ra sự mệt mỏi thêm với điểm trung bình 2,27 điểm. Nhận thức về nguồn thông tin gợi ý tập luyện PHCN cao nhất là từ Nhân viên y tế tư vấn về bệnh Ung thư vú và tập bài PHCN để nâng cao sức khỏe với trung bình 4,30 điểm. \nThực trạng về thực hành của bệnh nhân: Đa số bệnh nhân đều không đau khi luyện tập PHCN (83,8%). Nghề nghiệp của người bệnh có ảnh hưởng đến nhận thức về lợi ích, rào cản cũng như nhận thức về nguồn thông tin của việc thực hiện luyện tập PHCN, sự khác biệt có ý nghĩa thống kê với p<0,05. \nKết luận: Đa số bệnh nhân điều nhận thức được dấu hiệu về phù bạch huyết. Việc luyện tập bài tập PHCN có thể phòng ngừa biến chứng phù bạch huyết đồng thời không mang lại đau đớn cho bệnh nhân. Nghề nghiệp của bệnh nhân là yếu tố gây ảnh hưởng đến nhận thức, gợi ý về việc thực hiện luyện tập cũng như những rào cản của việc thực hiện luyện tập PHCN, do đó nhân viên y tế cần có sự tư vấn cụ thể, tận tình tùy theo từng cá thể để giúp người bệnh ung thư vú hạn chế, cải thiện những biến chứng của phù bạch huyết sau phẫu thuật.",
+      "link": "https://www.semanticscholar.org/paper/056de4c3acb24cede7848813e352477c613386aa",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "897f3a9c10b826aa1e71664bc5b9312a266ade03",
+      "title": "5. KIẾN THỨC VỀ NGỘ ĐỘC THUỐC TÊ CỦA NHÂN VIÊN Y TẾ TẠI CÁC KHOA NGOẠI: MỘT KHẢO SÁT ĐƠN TRUNG TÂM",
+      "authors": [
+        "Lê Ngô Khải Vy",
+        "Trần Hoài Huy",
+        "Lê Diệp Bảo Liêm",
+        "Giáp Thị Mai Linh",
+        "N. Linh",
+        "H. Bằng",
+        "Nguyễn Minh Hoàng",
+        "Nguyễn Thị Kim Anh",
+        "Vũ Trí Thanh"
+      ],
+      "journal": "Tạp chí Y học Cộng đồng",
+      "year": 2025,
+      "doi": "10.52163/yhc.v66icd8.2549",
+      "abstract": "Mục tiêu: Đánh giá thực trạng kiến thức về ngộ độc thuốc tê của nhân viên y tế tại các khoa ngoại một bệnh viện trực thuộc Sở Y tế thành phố Hồ Chí Minh. \nPhương pháp: Nghiên cứu cắt ngang được thực hiện từ tháng 4-11 năm 2024. Có 99 nhân viên y tế tham gia trả lời bảng câu hỏi cấu trúc về thực hành sử dụng thuốc tê và kiến thức về ngộ độc thuốc tê. \nKết quả: Có 73,7% nhân viên y tế từng sử dụng hoặc chỉ định thuốc tê, phổ biến nhất là Lidocain (94,5%). Chỉ 46,5% cho rằng mình có kiến thức về điều trị bằng nhũ tương lipid; 18,2% chưa từng nghe đến liệu pháp này. Tỉ lệ nhận diện đúng các triệu chứng sớm như nhịp tim nhanh và thay đổi ý thức lần lượt là 65,7% và 63,6%. Có 60,6% chưa từng tham gia đào tạo về ngộ độc thuốc tê. \nKết luận: Nhân viên y tế tại các khoa ngoại có hiểu biết chưa đầy đủ về ngộ độc thuốc tê, đặc biệt trong nhận diện triệu chứng sớm và biện pháp xử trí bằng nhũ tương lipid. Cần tăng cường các chương trình đào tạo chuyên sâu về xử trí ngộ độc thuốc tê.",
+      "link": "https://www.semanticscholar.org/paper/897f3a9c10b826aa1e71664bc5b9312a266ade03",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "9020e6a60c3654d8239c666b3a8585b9bcf4a96c",
+      "title": "Khám phá mối quan hệ giữa nhận thức kiểm soát hành vi và ý định khởi nghiệp của sinh viên - Vai trò trung gian của định hướng khởi nghiệp",
+      "authors": [
+        "Nguyễn Lê Hoàng Thụy Tố Quyên",
+        "Trần Yến Hảo",
+        "Lâm Quốc Bảo"
+      ],
+      "journal": "KINH TẾ VÀ QUẢN TRỊ KINH DOANH",
+      "year": 2024,
+      "doi": "10.46223/hcmcoujs.econ.vi.19.12.3378.2024",
+      "abstract": "Doanh nghiệp khởi nghiệp đóng vai trò quan trọng đối với tăng trưởng kinh tế của quốc gia. Tuy nhiên, thực trạng khởi nghiệp của Việt Nam đang gặp vấn đề rất lớn trong việc duy trì và vận hành doanh nghiệp sau khi thành lập. Nguyên nhân xuất phát từ ý định khởi nghiệp chưa được duy trì hiệu quả. Do đó, mục tiêu của nghiên cứu là dựa vào lý thuyết hành vi có kế hoạch (TPB) để tìm hiểu vai trò của nhận thức kiểm soát hành vi (PBC) và định hướng khởi nghiệp (EO) trong việc củng cố ý định khởi nghiệp (EI) của sinh viên đại học. Phương pháp định lượng được áp dụng dựa trên việc sử dụng kỹ thuật PLS-SEM để phân tích bộ dữ liệu sơ cấp bao gồm 371 quan sát được thu thập thông qua chiến lược chọn mẫu thuận tiện. Kết quả nghiên cứu đã cung cấp bằng chứng về tác động của PBC đối với EI thông qua vai trò trung gian của EO. Bên cạnh đó, kết quả này bổ sung vào khung phân tích lý thuyết ý định hành vi khởi nghiệp và khẳng định tính chất quan trọng của EO trong việc củng cố nhận thức cá nhân về năng lực bản thân. Các phân tích về kết quả này mang đến hiểu biết sâu hơn về cách mà sinh viên chủ động phát triển tư duy và củng cố sự hiểu biết về khả năng kiểm soát hành vi khởi nghiệp.",
+      "link": "https://www.semanticscholar.org/paper/9020e6a60c3654d8239c666b3a8585b9bcf4a96c",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    },
+    {
+      "id": "366ef2cd0670704ef13b9344e97fd7135c857910",
+      "title": "Thái độ về thực hành dựa vào bằng chứng của điều dưỡng tại Bệnh viện Ung bướu thành phố Hồ Chí Minh",
+      "authors": [
+        "Hoàng Đạo",
+        "Trần Ngọc Thanh Đặng",
+        "Minh Thanh Phạm",
+        "Lê Nhật Minh Phạm"
+      ],
+      "journal": "Tạp chí Khoa học Điều dưỡng",
+      "year": 2024,
+      "doi": "10.54436/jns.2024.04.754",
+      "abstract": "Mục tiêu: Xác định thực trạng thái độ và thực hành của điều dưỡng về thực hành dựa vào bằng chứng. Phân tích mối tương quan giữa thái độ và thực hành của điều dưỡng về thực hành dựa vào bằng chứng.\nĐối tượng và phương pháp nghiên cứu: Nghiên cứu mô tả cắt ngang được tiến hành trên 194 Điều dưỡng viên đang công tác tại bệnh viện Ung Bướu thành phố Hồ Chí Minh trong thời gian từ 01/2022 đến 05/2022. Sử dụng bộ câu hỏi dưới sự cho phép của Upton để thu thập số liệu. Nghiên cứu này sử dụng phương pháp chọn mẫu ngẫu nhiên phân tầng. Thống kê mô tả và Pearson’s r được dùng để phân tích số liệu.\nKết quả: 83% Điều dưỡng tham gia nghiên cứu đa số là nữ. Tuổi trung bình của Điều dưỡng là 34,46 ± 6,6. Trung bình số năm kinh nghiệm trong công việc là 11,77 ± 6,47. Điểm trung bình cao nhất là thực hành 4,90 ± 0,99, tiếp đến là thái độ 4,80 ± 0,95 điều này cho thấy điều dưỡng có thái độ về thực hành dựa vào bằng chứng là tích cực. Có mối tương quan giữa thái độ với thực hành dựa vào bằng chứng r = 0,43, p < 0,05.\nKết luận: Nghiên cứu này cho thấy Điều dưỡng có thái độ và thực hành tích cực đối với thực hành dựa vào bằng chứng. Cũng như chỉ ra mối tương quan giữa thái độ và thực hành dựa vào bằng chứng. Do vậy cần có những giải pháp cung cấp hoặc tạo điều kiện để Điều dưỡng nhận ra tầm quan trọng về thực hành dựa vào bằng chứng, như mở các khoá học thực hành dựa vào bằng chứng cho điều dưỡng, khuyến khích Điều dưỡng tìm kiếm bằng chứng xác thực để áp dụng trong công tác chăm sóc người bệnh.",
+      "link": "https://www.semanticscholar.org/paper/366ef2cd0670704ef13b9344e97fd7135c857910",
+      "cited_by": 0,
+      "source": "Semantic Scholar"
+    }
+  ]
+}

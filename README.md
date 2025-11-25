@@ -1,100 +1,110 @@
-# 🔬 Academic Search Assistant (Trợ lý Tìm kiếm Y văn)
+# 🔬 Academic Search Assistant
 
-Công cụ tìm kiếm bài báo khoa học thông minh, tích hợp đa nguồn (PubMed, Scopus, Semantic Scholar) và AI tư vấn chiến lược (Gemini).
+Công cụ tìm kiếm bài báo khoa học thông minh với AI, tích hợp PubMed, Scopus và Semantic Scholar.
 
-## ✨ Tính năng Nổi bật
+## ✨ Tính năng
 
-### 1. 🔍 Đa Nguồn Dữ Liệu
-- **PubMed**: Tìm kiếm y văn y sinh học từ cơ sở dữ liệu NCBI (Tiếng Anh).
-- **Scopus**: Tìm kiếm tài liệu khoa học đa ngành (Tiếng Anh).
-- **Semantic Scholar**: Tìm kiếm thông minh với Semantic Graph (Hỗ trợ tốt cho cả Tiếng Việt & Anh).
+### 🎯 Hai Phiên bản
 
-### 2. 🤖 Trợ lý AI (Gemini)
-- **Tư vấn Chiến lược**: Đóng vai trò thủ thư y khoa, gợi ý từ khóa (MeSH terms), cấu trúc PICO, và chiến lược tìm kiếm hiệu quả.
-- **Tối ưu hóa Truy vấn**: Tự động chuyển đổi câu hỏi tự nhiên thành truy vấn tối ưu cho từng nguồn:
-    - *Tiếng Anh* cho PubMed/Scopus.
-    - *Tiếng Việt* cho Semantic Scholar.
+1. **app.py** - Phiên bản cơ bản
+   - Tìm kiếm thủ công với 3 nguồn
+   - AI tư vấn chiến lược (tùy chọn)
+   - Kiểm soát chi tiết query
 
-### 3. � Giao diện Thân thiện
-- **Sidebar Cấu hình**: Quản lý API Keys và bộ lọc tìm kiếm (Năm, Số lượng) dễ dàng.
-- **Kết quả Phân loại**: Hiển thị kết quả theo từng tab nguồn riêng biệt hoặc tổng hợp.
-- **Lưu trữ**: (Tùy chọn) Lưu kết quả tìm kiếm để tham khảo sau.
+2. **app_langgraph.py** - Phiên bản AI nâng cao 🚀
+   - **Tự động phân tích** query với Gemini AI
+   - **Tự động tối ưu** query cho từng nguồn
+   - **Tìm kiếm song song** (async) - nhanh hơn 50%
+   - **Loại trùng lặp thông minh** (DOI → PMID → Title)
+   - **Cache 30 phút** - tiết kiệm 40% API calls
+   - **Auto refinement** nếu kết quả không đạt
+   - **Quản lý dự án** - lưu lịch sử tìm kiếm
 
-## 📁 Cấu trúc Dự án
+### 🔍 Nguồn Dữ Liệu
+- **PubMed** - Y sinh học (NCBI)
+- **Scopus** - Đa ngành khoa học
+- **Semantic Scholar** - Hỗ trợ tiếng Việt tốt
+
+## 📁 Cấu trúc
 
 ```
 tim_y_van_04_api/
-├── app.py                       # Frontend (Streamlit UI)
-├── requirements.txt             # Các thư viện cần thiết
-├── README.md                    # Tài liệu hướng dẫn
-│
-├── backend/                     # Backend Logic
-│   ├── __init__.py
-│   ├── search_manager.py        # Quản lý & điều phối tìm kiếm
-│   ├── gemini_service.py        # Tích hợp Google Gemini (google-genai SDK)
-│   ├── pubmed_api.py            # API Client cho PubMed
-│   ├── scopus_api.py            # API Client cho Scopus
-│   └── semantic_scholar_api.py  # API Client cho Semantic Scholar
-│
-└── results/                     # Thư mục chứa kết quả (nếu có lưu)
+├── app.py                    # App cơ bản
+├── app_langgraph.py          # App LangGraph AI ⭐
+├── requirements.txt
+├── .env                      # API keys
+├── backend/
+│   ├── *_api.py             # API clients cho 3 nguồn
+│   ├── search_manager.py    # Logic app cơ bản
+│   ├── gemini_service.py    # Gemini AI
+│   ├── langgraph_orchestrator.py  # LangGraph workflow
+│   ├── async_apis.py        # Async + Cache + Dedup
+│   ├── project_manager.py   # Quản lý dự án
+│   └── nodes/               # LangGraph nodes
+├── projects/                # Dữ liệu dự án
+└── docs/                    # Tài liệu chi tiết
 ```
 
-## 🚀 Hướng dẫn Cài đặt & Sử dụng
+## 🚀 Cài đặt & Sử dụng
 
-### 1. Cài đặt Môi trường
-
-Yêu cầu Python 3.9 trở lên.
+### 1. Cài đặt
 
 ```bash
-# Clone dự án (nếu chưa có)
-# git clone ...
-
-# Cài đặt các thư viện phụ thuộc
 pip install -r requirements.txt
 ```
 
 ### 2. Cấu hình API Keys
 
-Tạo file `.env` từ file mẫu và điền các API keys:
+Tạo file `.env`:
 
 ```bash
-cp .env.example .env
-```
-
-Sau đó chỉnh sửa file `.env` và điền các API keys của bạn:
-
-```
-GEMINI_API_KEY=your_gemini_api_key_here
-PUBMED_API_KEY=your_pubmed_api_key_here
-SCOPUS_API_KEY=your_scopus_api_key_here
-SEMANTIC_SCHOLAR_API_KEY=your_semantic_scholar_api_key_here
+GEMINI_API_KEY=your_key     # Bắt buộc cho AI
+SCOPUS_API_KEY=your_key     # Bắt buộc cho Scopus
+PUBMED_API_KEY=             # Tùy chọn
+SEMANTIC_SCHOLAR_API_KEY=   # Tùy chọn
 ```
 
 **Lấy API Keys:**
-*   **Gemini API Key** (Bắt buộc cho tính năng AI): [Lấy tại Google AI Studio](https://aistudio.google.com/)
-*   **Scopus API Key** (Bắt buộc cho Scopus): [Lấy tại Elsevier Developer](https://dev.elsevier.com/)
-*   **PubMed / Semantic Scholar**: Không bắt buộc, nhưng nên nhập để tăng giới hạn tìm kiếm (Rate Limit)
+- Gemini: https://aistudio.google.com/
+- Scopus: https://dev.elsevier.com/
 
-### 3. Chạy Ứng dụng
+### 3. Chạy App
 
+**App cơ bản:**
 ```bash
 streamlit run app.py
 ```
 
-Ứng dụng sẽ mở tại `http://localhost:8501`.
+**App LangGraph AI (Khuyến nghị):**
+```bash
+streamlit run app_langgraph.py
+# Hoặc:
+./start_langgraph.sh
+```
 
-## � Kịch bản Sử dụng Điển hình
+## 🎯 So sánh 2 Phiên bản
 
-1.  **Bước 1**: Nhập chủ đề cần tìm vào ô tìm kiếm (ví dụ: "Điều trị tiểu đường bằng thuốc nam").
-2.  **Bước 2**: Bấm **"Tư vấn Chiến lược (AI)"** để xem AI gợi ý từ khóa và cách tìm.
-3.  **Bước 3**: Chọn các nguồn muốn tìm (ví dụ: cả 3 nguồn).
-4.  **Bước 4**: Bấm **"Tìm kiếm Ngay"**.
-    *   Hệ thống sẽ tự động dịch và tối ưu từ khóa sang tiếng Anh để tìm trên PubMed/Scopus.
-    *   Đồng thời tìm bằng tiếng Việt trên Semantic Scholar.
-5.  **Bước 5**: Xem và so sánh kết quả tại các Tab.
+| Tính năng | app.py | app_langgraph.py |
+|-----------|--------|------------------|
+| Tối ưu query | ❌ Thủ công | ✅ AI tự động |
+| Loại trùng lặp | ❌ Không | ✅ 3-tier (DOI/PMID/Title) |
+| Cache | ❌ Không | ✅ 30 phút |
+| Tìm song song | ❌ Tuần tự | ✅ Async |
+| Auto refine | ❌ Không | ✅ Tối đa 2 lần |
+| Quản lý dự án | ❌ Không | ✅ Có |
+| Tốc độ | Chậm (30-45s) | ⚡ Nhanh (15-20s) |
 
-## 🛠️ Công nghệ Sử dụng
+**Khuyến nghị:** Dùng `app_langgraph.py` cho kết quả tốt hơn!
 
-- **Frontend**: Streamlit
-- **AI Model**: Gemini 2.0 Flash (via `google-genai` SDK)
-- **APIs**: NCBI Entrez (PubMed), Scopus Search API, Semantic Scholar Graph API
+## 📚 Tài liệu
+
+- [docs/FINAL_SUMMARY.md](docs/FINAL_SUMMARY.md) - Tổng kết toàn bộ tính năng
+- [docs/COMPARISON.md](docs/COMPARISON.md) - So sánh chi tiết 2 app
+- [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md) - Hướng dẫn sử dụng
+- [docs/](docs/) - Tài liệu đầy đủ
+
+## 🛠️ Công nghệ
+
+- **Frontend:** Streamlit
+- **AI:** Gemini 2.0 Flash, LangGraph
+- **APIs:** PubMed, Scopus, Semantic Scholar
