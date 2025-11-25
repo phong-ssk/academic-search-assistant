@@ -1,0 +1,39 @@
+{
+  "query": "COVID-19",
+  "source": "PubMed",
+  "timestamp": "20251125_105622",
+  "total_results": 2,
+  "articles": [
+    {
+      "pmid": "41285077",
+      "title": "A digital SERS platform powered by bispecific antibody fragments for SARS-CoV-2 diagnostics.",
+      "authors": [
+        "Jing Wang",
+        "Quan Zhou",
+        "Kym Lowry",
+        "Christopher B Howard",
+        "Matt Trau"
+      ],
+      "journal": "Biosensors & bioelectronics",
+      "year": "2025",
+      "doi": "10.1016/j.bios.2025.118252",
+      "abstract": "Surface-enhanced Raman scattering (SERS) immunoassays are powerful analytical tools for protein detection while typically rely on the availability of suitable antibodies. Compared to full-length antibodies, antibody fragments provide advantages such as rapid and cost-effective production. However, oriented conjugation of antibody fragments to SERS nanotags, essential for maintaining their functionality, remains relatively underexplored. Here, we introduce a bispecific antibody (BsAb)-programmable digital immunochemistry detection regime implemented on an advanced digital SERS platform (\"DigibiSERS\"), enabling deterministic molecular orientation, variance-robust single-particle event calling, and kinetic regularization within one unified platform. Specifically, we fuse an anti-nucleocapsid nanobody with a single-chain variable fragment targeting methoxy polyethylene glycol (mPEG) grafted onto the SERS nanotag surfaces. This design facilitates straightforward, oriented BsAb conjugation, preserving its functionality. The DigibiSERS platform, incorporating single-particle active SERS nanotags, nanomixing-enhanced microchips, and digital readouts, demonstrates high sensitivity and specificity, achieving detection limits of 2.01 ng/mL for nucleocapsid protein and 2.7 copies/mL for virus. An area under the curve (AUC) of 0.8783 highlights the potential of engineered antibody fragments in enhancing the clinical sensitivity and practicality of SERS-based immunoassays for infectious disease diagnostics.",
+      "source": "PubMed"
+    },
+    {
+      "pmid": "41285039",
+      "title": "Evaluating the Robustness of Dosiomics Features Over Treatment Planning Parameters: A Phantom-Based Study.",
+      "authors": [
+        "Mostafa Rezaei",
+        "Abbas Haghparast",
+        "Khadijah Hosseini",
+        "Hamid Abdollahi"
+      ],
+      "journal": "Biomedical physics & engineering express",
+      "year": "2025",
+      "doi": "10.1088/2057-1976/ae2334",
+      "abstract": "Abstract&#xD;&#xD;Dosimetric biomarkers, in terms of dosiomics features, play a crucial role in modeling radiotherapy and should be analyze d for their robustness and stability. This study aims to investigate how these dosiomics features will change over variations in treatment planning parameters. Different treatment plans were created by varying such parameters as field number, dose calculation algorithm, dose grid resolution, energy, monitor units, fraction, dose, field size, multileaf collimator, collimator angle, table angle, source-to-surface distance and source-to-axis distance, and wedge for a hypothetical tumor in the CIRS phantom CT scan. Dosiomics features were extracted with different segment sizes. The coefficient of variation (COV) was used to evaluate dosiomics feature changes with consider COV ≤ 5% as robust features.&#xD;Our findings showed that many of the dosiomics features had significant variations due to changes in treatment parameters. First-order and gray-level co-occurrence matrix (GLCM) features were more stable (COV ≤ 5%) compared to others. Field and wedge changes had the most significant impact on features, while the dose calculation algorithm, dose, and MU changes had the lesser effects. Dosiomics features were vulnerable over changing treatment parameters and should always be reported. The GLCM features set was the most robust. Further studies are needed to identify robust dosiomics features for future biomarker discovery.&#xD.",
+      "source": "PubMed"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "query": "COVID-19 treatment",
+  "timestamp": "20251125_105342",
+  "total_results": 3,
+  "articles": [
+    {
+      "pmid": "41285039",
+      "title": "Evaluating the Robustness of Dosiomics Features Over Treatment Planning Parameters: A Phantom-Based Study.",
+      "authors": [
+        "Mostafa Rezaei",
+        "Abbas Haghparast",
+        "Khadijah Hosseini",
+        "Hamid Abdollahi"
+      ],
+      "journal": "Biomedical physics & engineering express",
+      "year": "2025",
+      "doi": "10.1088/2057-1976/ae2334",
+      "abstract": "Abstract&#xD;&#xD;Dosimetric biomarkers, in terms of dosiomics features, play a crucial role in modeling radiotherapy and should be analyze d for their robustness and stability. This study aims to investigate how these dosiomics features will change over variations in treatment planning parameters. Different treatment plans were created by varying such parameters as field number, dose calculation algorithm, dose grid resolution, energy, monitor units, fraction, dose, field size, multileaf collimator, collimator angle, table angle, source-to-surface distance and source-to-axis distance, and wedge for a hypothetical tumor in the CIRS phantom CT scan. Dosiomics features were extracted with different segment sizes. The coefficient of variation (COV) was used to evaluate dosiomics feature changes with consider COV ≤ 5% as robust features.&#xD;Our findings showed that many of the dosiomics features had significant variations due to changes in treatment parameters. First-order and gray-level co-occurrence matrix (GLCM) features were more stable (COV ≤ 5%) compared to others. Field and wedge changes had the most significant impact on features, while the dose calculation algorithm, dose, and MU changes had the lesser effects. Dosiomics features were vulnerable over changing treatment parameters and should always be reported. The GLCM features set was the most robust. Further studies are needed to identify robust dosiomics features for future biomarker discovery.&#xD."
+    },
+    {
+      "pmid": "41285035",
+      "title": "Rapid decline of SARS-CoV-2-specific salivary IgA antibody levels in people with hybrid immunity-data from the STOPCoV study.",
+      "authors": [
+        "Sharon L Walmsley",
+        "Majid Nabipoor",
+        "Gary Chao",
+        "Leif Erik Lovblom",
+        "Lesley Ward",
+        "Rizani Ravindran",
+        "Karen Colwill",
+        "Anne Claude Gingras",
+        "Jennifer L Gommerman"
+      ],
+      "journal": "ImmunoHorizons",
+      "year": "2025",
+      "doi": "10.1093/immhor/vlaf068",
+      "abstract": "Hybrid immune individuals who experience an infection after a severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) mRNA vaccine series show evidence of salivary anti-spike and anti-receptor binding domain (RBD) IgA antibodies with broad specificity against different variants. It is unclear how long these antibodies persist and whether they offer protection against new SARS-CoV-2 infections. We compared salivary IgA levels to full-length spike protein and its RBD of the ancestral Wuhan SARS-CoV-2 virus and the Omicron BA.1 variant in a subset of persons participating in a longitudinal study of binding antibody responses to vaccination. We assessed the decay rate of the salivary IgA antibodies in those with hybrid immunity. In our heavily vaccinated population, low levels of salivary IgA to RBD and spike was variably detected in vaccine-only immunity to both Wuhan and Omicron BA.1, but antibody levels were an order of magnitude higher in those with hybrid immunity. In hybrid immune individuals, anti-spike/RBD salivary IgA rapidly decayed over a 4-month observation period. In a multivariate analysis, salivary IgA antibody to Omicron BA.1 was not associated with protection from a new SARS-CoV-2 infection over the subsequent 10 months during the Omicron XBB.1.5, EG.5, and JN waves of infection. In contrast, receipt of a new vaccine dose was significantly associated with protection."
+    },
+    {
+      "pmid": "41284990",
+      "title": "Barriers to Wellness Among General Surgery Residents During the COVID-19 Pandemic: Qualitative Analysis of Survey Responses.",
+      "authors": [
+        "Idil Bilgen",
+        "Matthew Castelo",
+        "Emma Reel",
+        "May-Anh Nguyen",
+        "Brittany Greene",
+        "Justin Lu",
+        "Savtaj Brar",
+        "Tulin Cil"
+      ],
+      "journal": "JMIR perioperative medicine",
+      "year": "2025",
+      "doi": "10.2196/72819",
+      "abstract": "Health care provider burnout worsened during the COVID-19 pandemic."
+    }
+  ]
+}
