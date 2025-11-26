@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+
 # Cấu hình trang
 st.set_page_config(
     page_title="Academic Search Assistant",
