@@ -23,7 +23,7 @@ ENV/
 .DS_Store
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # Results (optional - uncomment if you don't want to track results)
 # results/*.json

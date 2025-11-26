@@ -20,11 +20,24 @@ st.set_page_config(
     layout="wide"
 )
 
-# Load API keys
-gemini_key = os.getenv("GEMINI_API_KEY", "")
-pubmed_key = os.getenv("PUBMED_API_KEY", "")
-scopus_key = os.getenv("SCOPUS_API_KEY", "")
-semantic_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "")
+# Load API keys - Try .env first, then fall back to Streamlit secrets
+def get_api_key(key_name):
+    """Get API key from .env or Streamlit secrets"""
+    # Try .env first
+    env_value = os.getenv(key_name, "")
+    if env_value:
+        return env_value
+
+    # Fall back to Streamlit secrets
+    try:
+        return st.secrets.get(key_name, "")
+    except (FileNotFoundError, KeyError):
+        return ""
+
+gemini_key = get_api_key("GEMINI_API_KEY")
+pubmed_key = get_api_key("PUBMED_API_KEY")
+scopus_key = get_api_key("SCOPUS_API_KEY")
+semantic_key = get_api_key("SEMANTIC_SCHOLAR_API_KEY")
 
 # --- SIDEBAR ---
 with st.sidebar:

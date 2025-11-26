@@ -1,245 +1,375 @@
-# 🔬 Academic Search Assistant
+# 🔬 Academic Search Assistant with AI Orchestration
 
-Công cụ tìm kiếm bài báo khoa học thông minh với AI, tích hợp **PubMed**, **Scopus** và **Semantic Scholar**.
+> **Intelligent academic literature search system powered by LangGraph AI, integrating PubMed, Scopus, and Semantic Scholar.**
 
-## 🚀 Hai Phiên bản
-
-### 1. **app.py** - Phiên bản Cơ bản
-Tìm kiếm thủ công với AI tư vấn (tùy chọn).
-
-**Tính năng:**
-- Tìm kiếm 3 nguồn: PubMed, Scopus, Semantic Scholar
-- AI tư vấn chiến lược và tối ưu query (Gemini)
-- Kiểm soát chi tiết: chọn query AI hoặc query gốc
-- Bộ lọc năm, số lượng kết quả
-- Tùy chỉnh thông tin hiển thị
-
-**Khi nào dùng:** Bạn muốn kiểm soát 100% quá trình tìm kiếm.
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-### 2. **app_langgraph.py** - Phiên bản AI Nâng cao ⭐
+## 🌟 Overview
 
-Tìm kiếm tự động với LangGraph AI orchestration.
+This application offers **two versions** for academic literature search:
 
-**Tính năng vượt trội:**
-- ✅ **Tự động phân tích** query (topic, intent, language)
-- ✅ **Tự động tối ưu** query cho từng nguồn (PubMed MeSH, Scopus syntax)
-- ✅ **Tìm kiếm song song** async - nhanh hơn 50%
-- ✅ **Loại trùng lặp** 3-tier (DOI → PMID → Title similarity 85%)
-- ✅ **Cache 30 phút** - tiết kiệm 40% API calls
-- ✅ **Auto refinement** (max 2 lần) nếu kết quả chưa tốt
-- ✅ **Quản lý dự án** - lưu lịch sử và kết quả tìm kiếm
-- ✅ **Early stopping** - dừng khi quality score >= 0.7 hoặc đủ kết quả
+### **1. app.py - Basic Version**
+Manual search with optional AI consultation.
 
-**Khi nào dùng:** Bạn muốn kết quả tốt nhất, nhanh nhất và tự động hoàn toàn.
+**Features:**
+- Search across 3 sources: PubMed, Scopus, Semantic Scholar
+- AI consultation for search strategy (Gemini)
+- Full control: choose AI-optimized or original queries
+- Year filters and result quantity control
+- Customizable display options
 
-**Khuyến nghị:** Sử dụng `app_langgraph.py` cho hầu hết các trường hợp! 🎯
-
-## 📊 So sánh Chi tiết
-
-| Tính năng | app.py | app_langgraph.py |
-|-----------|--------|------------------|
-| **Tối ưu query** | ❌ Thủ công | ✅ AI tự động |
-| **Chọn nguồn** | ❌ User chọn | ✅ AI chọn dựa topic |
-| **Loại trùng lặp** | ❌ Không | ✅ 3-tier smart |
-| **Cache** | ❌ Không | ✅ 30 phút TTL |
-| **Tìm kiếm** | ❌ Tuần tự | ✅ Song song async |
-| **Auto refine** | ❌ Không | ✅ Max 2 lần |
-| **Quản lý dự án** | ❌ Không | ✅ Có |
-| **Tốc độ** | 30-45s | ⚡ 15-20s |
-| **Tiết kiệm tài nguyên** | Không | ✅ ~60% |
-| **User steps** | 3-4 bước | 1 bước |
+**When to use:** You want full manual control over the search process.
 
 ---
 
-## ⚡ Bắt đầu Nhanh
+### **2. app_langgraph.py - AI Advanced Version ⭐ RECOMMENDED**
 
-### 1️⃣ Cài đặt Dependencies
+Fully automated search with LangGraph AI orchestration.
+
+**Advanced Features:**
+- ✅ **Automatic query analysis** (topic, intent, language detection)
+- ✅ **Intelligent query optimization** for each source (PubMed MeSH, Scopus syntax)
+- ✅ **Parallel async search** - 50% faster
+- ✅ **Smart 3-tier deduplication** (DOI → PMID → Title similarity 85%)
+- ✅ **30-minute caching** - saves 40% API calls
+- ✅ **Auto refinement** (max 2 attempts) when results are insufficient
+- ✅ **Project management** - save search history and results
+- ✅ **Early stopping** - stops when quality score >= 0.7 or sufficient results found
+
+**When to use:** You want the best results, fastest performance, and full automation.
+
+---
+
+## 📊 Feature Comparison
+
+| Feature | app.py | app_langgraph.py |
+|---------|--------|------------------|
+| **Query optimization** | ❌ Manual | ✅ AI automatic |
+| **Source selection** | ❌ User selects | ✅ AI selects based on topic |
+| **Deduplication** | ❌ None | ✅ 3-tier smart deduplication |
+| **Caching** | ❌ None | ✅ 30-min TTL cache |
+| **Search method** | ❌ Sequential | ✅ Parallel async |
+| **Auto refinement** | ❌ None | ✅ Max 2 attempts |
+| **Project management** | ❌ None | ✅ Full project tracking |
+| **Speed** | 30-45s | ⚡ 15-20s |
+| **Resource savings** | None | ✅ ~60% |
+| **User steps required** | 3-4 steps | 1 step |
+
+---
+
+## ⚡ Quick Start
+
+### 1️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Cấu hình API Keys
+### 2️⃣ Configure API Keys
 
-Tạo file `.env` với nội dung:
+Create a `.env` file in the root directory:
 
 ```bash
-GEMINI_API_KEY=your_key_here          # Bắt buộc cho AI
-SCOPUS_API_KEY=your_key_here          # Bắt buộc cho Scopus
-PUBMED_API_KEY=your_key_here          # Tùy chọn (tăng rate limit)
-SEMANTIC_SCHOLAR_API_KEY=your_key_here # Tùy chọn
+GEMINI_API_KEY=your_key_here          # Required for AI features
+PUBMED_API_KEY=your_key_here          # Optional (increases rate limit)
+SCOPUS_API_KEY=your_key_here          # Required for Scopus
+SEMANTIC_SCHOLAR_API_KEY=your_key_here # Optional
 ```
 
-**Lấy API Keys:**
-- **Gemini**: https://aistudio.google.com/ (free)
-- **Scopus**: https://dev.elsevier.com/ (cần đăng ký)
+**Get API Keys:**
+- **Gemini AI**: https://aistudio.google.com/ (free)
+- **Scopus**: https://dev.elsevier.com/ (requires registration)
 - **PubMed**: https://www.ncbi.nlm.nih.gov/account/ (free)
 - **Semantic Scholar**: https://www.semanticscholar.org/product/api (free, optional)
 
-### 3️⃣ Chạy Ứng dụng
+### 3️⃣ Run the Application
 
-**App LangGraph AI (Khuyến nghị):**
+**LangGraph AI Version (Recommended):**
 ```bash
 ./start_langgraph.sh
-# Hoặc:
+# Or:
 streamlit run app_langgraph.py
 ```
 
-**App Cơ bản:**
+**Basic Version:**
 ```bash
 streamlit run app.py
 ```
 
-Ứng dụng sẽ mở tại `http://localhost:8501`
-
-## 📖 Hướng dẫn Sử dụng
-
-### App LangGraph (app_langgraph.py)
-
-1. **Nhập query** (tiếng Việt hoặc Anh)
-   ```
-   Ví dụ: "Điều trị tăng huyết áp ở người cao tuổi"
-   ```
-
-2. **Cấu hình** (sidebar)
-   - Bộ lọc: năm, số lượng kết quả
-   - Nguồn: PubMed, Scopus, Semantic Scholar
-   - Hiển thị: tác giả, DOI, abstract...
-
-3. **Bấm "🔍 Tìm kiếm Thông minh"**
-   - AI tự động phân tích và tối ưu query
-   - Tìm song song trên 3 nguồn
-   - Loại trùng lặp thông minh
-   - Kết quả hiển thị theo tab
-
-4. **Lưu dự án** (tùy chọn)
-   - Chọn bài báo cần lưu
-   - Lưu vào dự án mới hoặc dự án có sẵn
-   - Quản lý dự án trong sidebar
-
-### App Cơ bản (app.py)
-
-1. **Nhập query**
-2. **Bấm "🤖 Tư vấn AI"** (tùy chọn) → Xem gợi ý
-3. **Chọn:** "Tìm với Query AI" hoặc "Tìm với Query gốc"
-4. **Xem kết quả** theo tab
+The application will open at `http://localhost:8501`
 
 ---
 
-## 🔧 Cấu trúc Dự án
+## 📖 Usage Guide
+
+### Using app_langgraph.py (AI Version)
+
+1. **Enter your query** (Vietnamese or English)
+   ```
+   Example: "treatment of hypertension in elderly patients"
+   Example: "điều trị tăng huyết áp ở người cao tuổi"
+   ```
+
+2. **Configure settings** (sidebar)
+   - Filters: publication year range, max results
+   - Sources: PubMed, Scopus, Semantic Scholar
+   - Display: authors, DOI, abstract, citations, etc.
+
+3. **Click "🚀 Smart Search (LangGraph AI)"**
+   - AI automatically analyzes and optimizes your query
+   - Parallel search across selected sources
+   - Smart deduplication removes duplicates
+   - Results displayed in organized tabs
+
+4. **Save to project** (optional)
+   - Select articles to save
+   - Save to new or existing project
+   - Manage projects in sidebar
+
+### Using app.py (Basic Version)
+
+1. **Enter your query**
+2. **Click "🤖 AI Consultation"** (optional) → View AI recommendations
+3. **Choose:** "Search with AI Query" or "Search with Original Query"
+4. **View results** organized by source tabs
+
+---
+
+## 🏗️ Project Structure
 
 ```
 tim_y_van_04_api/
-├── app.py                    # App cơ bản
-├── app_langgraph.py          # App LangGraph AI ⭐
-├── start_langgraph.sh        # Script chạy nhanh
-├── requirements.txt          # Dependencies
-├── .env                      # API keys (tự tạo)
+├── README.md                  # This file
+├── app.py                     # Basic search app
+├── app_langgraph.py          # LangGraph AI app ⭐
+├── start_langgraph.sh        # Quick start script
+├── requirements.txt          # Python dependencies
+├── .env                      # API keys (create this)
+├── .gitignore               # Git ignore rules
+├── CHANGELOG.md             # Project history
+├── DEPLOYMENT.md            # Streamlit Cloud deployment guide
 │
-├── backend/                  # Backend logic
-│   ├── search_manager.py    # Logic app.py
+├── .streamlit/              # Streamlit configuration
+│   ├── secrets.toml        # API keys for cloud (gitignored)
+│   └── config.toml         # Streamlit settings
+│
+├── backend/                 # Backend logic
+│   ├── search_manager.py   # Logic for app.py
 │   ├── langgraph_orchestrator.py  # LangGraph workflow
-│   ├── gemini_service.py    # Gemini AI service
-│   ├── async_apis.py        # Async + Cache + Dedup
-│   ├── project_manager.py   # Quản lý dự án
-│   ├── state_schema.py      # LangGraph state
-│   ├── pubmed_api.py        # PubMed client
-│   ├── scopus_api.py        # Scopus client
+│   ├── gemini_service.py   # Gemini AI service
+│   ├── async_apis.py       # Async search + Cache + Deduplication
+│   ├── project_manager.py  # Project management
+│   ├── state_schema.py     # LangGraph state schema
+│   ├── storage.py          # Data persistence
+│   ├── pubmed_api.py       # PubMed client
+│   ├── scopus_api.py       # Scopus client
 │   ├── semantic_scholar_api.py  # Semantic Scholar client
-│   └── nodes/               # LangGraph nodes (6 files)
-│       ├── analyze.py       # Phân tích query
-│       ├── plan.py          # Lập chiến lược
-│       ├── optimize.py      # Tối ưu queries
-│       ├── execute.py       # Thực thi tìm kiếm
-│       ├── evaluate.py      # Đánh giá & loại trùng
-│       └── refine.py        # Cải thiện query
+│   └── nodes/              # LangGraph nodes (6 files)
+│       ├── analyze.py      # Query analysis
+│       ├── plan.py         # Strategy planning
+│       ├── optimize.py     # Query optimization
+│       ├── execute.py      # Search execution
+│       ├── evaluate.py     # Results evaluation & deduplication
+│       └── refine.py       # Query refinement
 │
-├── projects/                 # Dữ liệu dự án (tự tạo)
+├── projects/               # Project data (auto-created)
 │   └── projects_registry.json
 │
-└── docs/                     # Tài liệu chi tiết
-    ├── README.md            # Mục lục
-    ├── FINAL_SUMMARY.md     # Tổng kết LangGraph
-    ├── COMPARISON.md        # So sánh chi tiết
-    └── USAGE_GUIDE.md       # Hướng dẫn sử dụng
+└── docs/                   # Detailed documentation
+    ├── README.md          # Documentation index
+    ├── FINAL_SUMMARY.md   # LangGraph implementation summary
+    ├── COMPARISON.md      # Detailed app comparison
+    ├── USAGE_GUIDE.md     # Step-by-step usage guide
+    └── LANGGRAPH_README.md # LangGraph technical documentation
 ```
 
 ---
 
 ## 🎓 Use Cases
 
-### Case 1: Y học (tiếng Việt)
+### Case 1: Medical Research (Vietnamese)
+
 ```
 Query: "Điều trị ung thư phổi giai đoạn muộn"
 
-→ AI phân tích: topic=medical, language=vi
-→ Chọn nguồn: PubMed + Semantic Scholar
+→ AI analysis: topic=medical, language=vi
+→ Sources selected: PubMed + Semantic Scholar
 → PubMed query: "lung cancer[MeSH] AND advanced stage AND treatment"
-→ Semantic query: giữ nguyên tiếng Việt
-→ Kết quả: 45 bài (PubMed: 30, Semantic: 15)
-→ Loại trùng: 38 bài unique
+→ Semantic query: keeps Vietnamese for better local results
+→ Results: 45 articles (PubMed: 30, Semantic: 15)
+→ After deduplication: 38 unique articles
 → Quality score: 0.85 → STOP ✅
 ```
 
-### Case 2: Kỹ thuật (tiếng Anh)
+### Case 2: Engineering Research (English)
+
 ```
 Query: "Machine learning in weather forecasting"
 
-→ AI phân tích: topic=engineering, language=en
-→ Chọn nguồn: Scopus + Semantic Scholar
-→ Tìm lần 1: 12 bài (thấp)
+→ AI analysis: topic=engineering, language=en
+→ Sources selected: Scopus + Semantic Scholar
+→ First search: 12 articles (too few)
 → Quality: 0.45 → REFINE 🔄
-→ Refine query: "machine learning weather prediction climate"
-→ Tìm lần 2: 78 bài
+→ Refined query: "machine learning weather prediction climate"
+→ Second search: 78 articles
 → Quality: 0.82 → STOP ✅
 ```
 
 ---
 
-## 🐛 Xử lý Lỗi
+## 🔧 LangGraph AI Workflow
 
-**Lỗi: "GEMINI_API_KEY not found"**
-- Kiểm tra file `.env` có tồn tại
-- Đảm bảo key đúng format: `GEMINI_API_KEY=AIzaSy...`
+The `app_langgraph.py` uses a sophisticated AI workflow:
 
-**Lỗi: "Scopus authentication failed"**
-- Kiểm tra Scopus API key hợp lệ
-- Đảm bảo còn quota (check tại dev.elsevier.com)
+```
+START
+  ↓
+[ANALYZE] - Detect topic, language, intent
+  ↓
+[PLAN] - Select optimal sources
+  ↓
+[OPTIMIZE] - Create source-specific queries
+  ↓
+[EXECUTE] - Parallel async search + caching
+  ↓
+[EVALUATE] - Deduplication + quality scoring
+  ↓
+ Decision: needs_refinement?
+  ├─ No → END ✅
+  └─ Yes (& attempts < 2) → [REFINE] → back to OPTIMIZE
+```
 
-**Lỗi: "Rate limit exceeded"**
-- Đợi 1-2 phút hoặc nhập API key để tăng limit
-- PubMed: 10 req/s (có key) vs 3 req/s (không key)
-
-**Không có kết quả**
-- Thử query đơn giản hơn
-- Mở rộng khoảng năm
-- Dùng AI tối ưu query (app_langgraph.py)
+**Stopping Conditions:**
+1. ✅ Quality score >= 0.7
+2. ✅ Found >= 80% of requested results
+3. ✅ Refinement attempts >= 2
 
 ---
 
-## 📚 Tài liệu Thêm
+## 🐛 Troubleshooting
 
-- [docs/FINAL_SUMMARY.md](docs/FINAL_SUMMARY.md) - Tổng kết đầy đủ LangGraph
-- [docs/COMPARISON.md](docs/COMPARISON.md) - So sánh chi tiết 2 app
-- [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md) - Hướng dẫn chi tiết từng bước
-- [docs/LANGGRAPH_README.md](docs/LANGGRAPH_README.md) - Kiến trúc LangGraph
+### Error: "GEMINI_API_KEY not found"
+- Ensure `.env` file exists in the root directory
+- Verify format: `GEMINI_API_KEY=AIzaSy...`
+- For Streamlit Cloud, add key to secrets in dashboard
+
+### Error: "Scopus authentication failed"
+- Verify Scopus API key is valid
+- Check quota at dev.elsevier.com
+- Ensure institutional access if required
+
+### Error: "Rate limit exceeded"
+- Wait 1-2 minutes before retry
+- Add API keys to increase limits:
+  - PubMed: 10 req/s (with key) vs 3 req/s (without)
+- Use caching feature in `app_langgraph.py`
+
+### No results found
+- Try simpler, more general query terms
+- Expand year range in filters
+- Use AI optimization in `app_langgraph.py`
+- Check if selected sources are accessible
+
+### Application won't start
+- Verify Python 3.9+ is installed
+- Install all requirements: `pip install -r requirements.txt`
+- Check for port conflicts (default: 8501)
 
 ---
 
-## 🛠️ Công nghệ
+## 🚀 Deployment
 
-- **Frontend:** Streamlit
-- **AI:** Gemini 2.0 Flash, LangGraph
-- **APIs:** NCBI Entrez (PubMed), Scopus Search API, Semantic Scholar Graph API
+### Local Deployment
+
+See [Quick Start](#-quick-start) above.
+
+### Streamlit Community Cloud
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment instructions including:
+- GitHub setup
+- Streamlit Cloud configuration
+- Secrets management
+- Troubleshooting
+
+**Quick Deploy Steps:**
+1. Push to GitHub
+2. Go to https://share.streamlit.io/
+3. Select repository and `app_langgraph.py`
+4. Add API keys to Secrets (TOML format)
+5. Deploy!
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend:** Streamlit 1.28+
+- **AI/ML:**
+  - Google Gemini 2.0 Flash (LLM)
+  - LangGraph (AI orchestration)
+  - LangChain (AI framework)
+- **APIs:**
+  - NCBI Entrez (PubMed)
+  - Elsevier Scopus Search API
+  - Semantic Scholar Graph API
 - **Language:** Python 3.9+
+- **Key Libraries:** `requests`, `python-dotenv`, `google-generativeai`
+
+---
+
+## 📚 Additional Documentation
+
+- [DEPLOYMENT.md](DEPLOYMENT.md) - Streamlit Cloud deployment guide
+- [CHANGELOG.md](CHANGELOG.md) - Project history and changes
+- [docs/FINAL_SUMMARY.md](docs/FINAL_SUMMARY.md) - Complete LangGraph implementation
+- [docs/COMPARISON.md](docs/COMPARISON.md) - Detailed feature comparison
+- [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md) - Step-by-step usage instructions
+- [docs/LANGGRAPH_README.md](docs/LANGGRAPH_README.md) - LangGraph architecture
+
+---
+
+## 🤝 Contributing
+
+This is an academic project. Contributions and suggestions are welcome:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-MIT License - Sử dụng tự do cho mục đích học tập và nghiên cứu.
+MIT License - Free for academic and research purposes.
+
+See [LICENSE](LICENSE) for details.
 
 ---
 
-**🎉 Chúc bạn tìm kiếm hiệu quả!**
+## 🙏 Acknowledgments
+
+- **Data Sources:** PubMed/NCBI, Elsevier Scopus, Semantic Scholar
+- **AI Provider:** Google Gemini
+- **Framework:** Streamlit, LangGraph, LangChain
+
+---
+
+## 📧 Support
+
+For issues or questions:
+- Check the [Troubleshooting](#-troubleshooting) section
+- Review [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md)
+- Open an issue on GitHub
+
+---
+
+**🎉 Happy researching! Start with `app_langgraph.py` for the best experience!**
+
+---
+
+*Last updated: 2025-01-27*
