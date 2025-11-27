@@ -336,7 +336,7 @@ with main_col1:
             if use_pubmed: sources.append("PubMed")
             if use_scopus: sources.append("Scopus")
             if use_semantic: sources.append("Semantic Scholar")
-            
+
             if not sources:
                 st.error("❌ Vui lòng chọn ít nhất một nguồn dữ liệu.")
             else:
@@ -345,18 +345,74 @@ with main_col1:
                     'year_range': list(year_range),
                     'sources': sources
                 }
-                
-                # Execute LangGraph
+
+                # Node display names and icons
+                node_info = {
+                    'analyze_query': {'icon': '🔍', 'name': 'Phân tích Query'},
+                    'plan_strategy': {'icon': '📋', 'name': 'Lập Chiến lược'},
+                    'optimize_queries': {'icon': '⚙️', 'name': 'Tối ưu Query'},
+                    'execute_search': {'icon': '🚀', 'name': 'Tìm kiếm Dữ liệu'},
+                    'evaluate_results': {'icon': '📊', 'name': 'Đánh giá & Lọc'},
+                    'refine_query': {'icon': '🔄', 'name': 'Tinh chỉnh Query'},
+                    'synthesize_findings': {'icon': '📝', 'name': 'Tổng hợp Kết quả'}
+                }
+
+                # Progress callback for toast notifications
+                def show_progress(node_name: str, node_state: dict):
+                    """Display toast notification for each node execution"""
+                    info = node_info.get(node_name, {'icon': '⚙️', 'name': node_name})
+
+                    # Customize message based on node
+                    if node_name == 'analyze_query':
+                        analysis = node_state.get('query_analysis', {})
+                        topic = analysis.get('topic', 'N/A')
+                        lang = analysis.get('language', 'N/A')
+                        msg = f"{info['icon']} {info['name']}: {topic} ({lang})"
+
+                    elif node_name == 'plan_strategy':
+                        strategy = node_state.get('search_strategy', {})
+                        sources = strategy.get('sources', [])
+                        msg = f"{info['icon']} {info['name']}: {len(sources)} nguồn"
+
+                    elif node_name == 'execute_search':
+                        results = node_state.get('search_results', {})
+                        total = sum(len(v) for v in results.values())
+                        msg = f"{info['icon']} {info['name']}: Tìm được {total} bài báo"
+
+                    elif node_name == 'evaluate_results':
+                        filtered = node_state.get('filtered_results', [])
+                        filter_stats = node_state.get('filter_statistics', {})
+                        avg_score = filter_stats.get('avg_score', 0.0)
+                        msg = f"{info['icon']} {info['name']}: {len(filtered)} bài chất lượng cao (⭐{avg_score:.1f}/10)"
+
+                    elif node_name == 'refine_query':
+                        count = node_state.get('refinement_count', 0)
+                        msg = f"{info['icon']} {info['name']}: Lần {count}/2"
+
+                    elif node_name == 'synthesize_findings':
+                        synth_meta = node_state.get('synthesis_metadata', {})
+                        papers_count = synth_meta.get('papers_count', 0)
+                        msg = f"{info['icon']} {info['name']}: {papers_count} bài báo"
+
+                    else:
+                        msg = f"{info['icon']} {info['name']}"
+
+                    st.toast(msg, icon=info['icon'])
+
+                # Execute LangGraph with progress tracking
                 with st.spinner("🧠 AI đang phân tích và tìm kiếm..."):
                     try:
                         final_state = invoke_search(
                             st.session_state.graph_compiled,
                             user_query=query,
-                            user_preferences=user_preferences
+                            user_preferences=user_preferences,
+                            progress_callback=show_progress
                         )
                         st.session_state.langgraph_results = final_state
+                        st.toast("✅ Hoàn thành tìm kiếm!", icon="✅")
                     except Exception as e:
                         st.error(f"❌ Search failed: {e}")
+                        st.toast(f"❌ Lỗi: {str(e)[:50]}", icon="❌")
                         import traceback
                         st.code(traceback.format_exc())
 

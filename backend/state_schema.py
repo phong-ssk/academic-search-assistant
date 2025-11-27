@@ -28,10 +28,20 @@ class SearchState(TypedDict):
     needs_refinement: bool
     refinement_reason: str
     refinement_count: int
-    
+
+    # NEW: AI Filtering & Ranking
+    filtered_results: Optional[List[Dict]]  # Papers that passed AI filter (score >= 7)
+    discarded_articles: Optional[List[Dict]]  # Papers rejected by AI + reasons
+    relevance_scores: Optional[Dict]  # {article_id: score} mapping
+    filter_statistics: Optional[Dict]  # {total_found, kept, discarded, avg_score, pass_rate}
+
+    # NEW: Literature Synthesis
+    synthesis_summary: Optional[str]  # AI-generated literature review
+    synthesis_metadata: Optional[Dict]  # {papers_count, avg_year, synthesis_date}
+
     # Output
     final_results: List[Dict]
     metadata: Dict
-    
+
     # Messages (for debugging/logging)
     messages: Annotated[list, add_messages]

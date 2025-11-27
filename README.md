@@ -329,6 +329,17 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment instructions includin
 - [docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md) - Step-by-step usage instructions
 - [docs/LANGGRAPH_README.md](docs/LANGGRAPH_README.md) - LangGraph architecture
 
+### 🚀 Upcoming Features
+
+- [RESEARCH_AGENT_UPGRADE_PLAN.md](RESEARCH_AGENT_UPGRADE_PLAN.md) - Detailed plan to upgrade to true Research Agent
+- [UPGRADE_QUICK_GUIDE.md](UPGRADE_QUICK_GUIDE.md) - Quick implementation guide for developers
+
+**Next evolution:** Transform from "Smart Search" to "Research Agent" with:
+- AI-powered abstract filtering (reads every paper, not just 3 samples)
+- Relevance scoring (1-10 scale) for each article
+- Literature synthesis (AI-generated research summary)
+- Transparent filtering (see why papers were discarded)
+
 ---
 
 ## 🤝 Contributing
